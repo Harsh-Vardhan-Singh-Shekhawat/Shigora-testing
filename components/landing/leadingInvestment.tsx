@@ -17,7 +17,7 @@ const leadingInvestment = () => {
                 </div>
             </div>
             <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/d8yp2p3rTDg?si=HkQBOwp1oEaKQ5ep" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen="allowfullscreen"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/d8yp2p3rTDg?si=HkQBOwp1oEaKQ5ep" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
         </div>
         <p className='text-[#7A7A7A] text-[17px] tracking-[0.7px] p-3'>
