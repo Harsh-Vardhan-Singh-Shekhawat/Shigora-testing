@@ -5,7 +5,7 @@ const work = () => {
     <div className='text-center '>
       <h1 className='text-[30px] font-bold py-10'>How do we work?</h1>
 
-      <div className='grid  grid-cols-1 sm:grid-cols-1 md:grid-cols-2 text-white text-left text-[20px] justify-center'>
+      <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 text-white  tracking-[0.7px] text-left text-[20px] justify-center'>
         <div className="h-[300px] bg-[url('/How-do-we-work-5-1024x512.webp')] p-10 bg-no-repeat bg-cover  brightness-50">
             We offer you a comprehensive suite of finances with easy and convenient steps. Choose the type of loan that best fits your needs, and we will assist you in less than five minutes.
         </div>

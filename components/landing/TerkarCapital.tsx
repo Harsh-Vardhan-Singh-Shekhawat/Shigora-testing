@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const TerkarCapital = () => {
   return (
-    <div className='my-4 md:my-20'>
+    <div className='my- sm:my-4 md:my-20 lg:my-20'>
       <div className='flex flex-col md:flex-row items-center gap-2'>
         <div className='bg-zinc-900 text-white '>
         <h1 className="p-2 text-[30px]">

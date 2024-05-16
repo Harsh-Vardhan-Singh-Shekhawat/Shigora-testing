@@ -6,6 +6,7 @@ import SetApart from '@/components/landing/setApart'
 import Hero from '@/components/landing/hero'
 import Work from '@/components//landing/work'
 import TerkarCapital from '@/components/landing/TerkarCapital'
+import GrowBusiness from '@/components/landing/growBusiness'
 import LeadingInvestment from '@/components/landing/leadingInvestment'
 import InfoForm from '@/components/landing/infoForm'
 import { Inter } from 'next/font/google'
@@ -37,6 +38,7 @@ export default function Home() {
           <SetApart />
           <Work />
           <TerkarCapital />
+          <GrowBusiness />
           <LeadingInvestment />
           <InfoForm />
         </div>
