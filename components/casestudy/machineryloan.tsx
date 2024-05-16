@@ -49,7 +49,7 @@ const projectfinance = () => {
 
       
 
-      <div className="px-28 grid grid-cols-2 justify-evenly text-[17px] tracking-[0.7px]">
+      <div className="px-28 grid grid-cols-2 gap-2 text-[17px] tracking-[0.7px]">
         <div className="p-5  shadow-xl">
         <h1 className="text-[25px] text-black  font-bold">
         Machinery Loan Execution Process

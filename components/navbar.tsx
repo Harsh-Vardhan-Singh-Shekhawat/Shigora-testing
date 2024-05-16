@@ -22,19 +22,19 @@ const finance = [
   {
     name: "Unsecured Debt Products",
     description: "Get a better understanding of your traffic",
-    href: "/financial-instruments/unsecured-debt-products",
+    href: "", ///financial-instruments/unsecured-debt-products
     icon: ChartPieIcon,
   },
   {
     name: "Secured Funding Debt",
     description: "Speak directly to your customers",
-    href: "/financial-instruments/secure-funding-products",
+    href: "",///financial-instruments/secure-funding-products
     icon: CursorArrowRaysIcon,
   },
   {
     name: "Loan For Professional",
     description: "Your customers’ data will be safe and secure",
-    href: "/financial-instruments/loan-for-profressional",
+    href: "",//financial-instruments/loan-for-profressional
     icon: FingerPrintIcon,
   },
   {
@@ -424,18 +424,12 @@ export default function Navbar() {
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}
       >
-        <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 w-full overflow-y-auto  px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 bg-[#09160E] z-[60]">
+        <div className="fixed inset-0 z-10 " />
+        <Dialog.Panel className="fixed inset-y-0 right-0 w-full overflow-y-auto  px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 bg-[#fff]  z-[60]">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="#" className="-m-1.5 p-1.5 font-bold text-[28px]">
               {/* <span className="sr-only">Terkar</span> */}
-              <Image
-                className="h-8 w-auto"
-                src="/giakaalogo.png"
-                alt="Giakaa Logo Mobile"
-                width={200}
-                height={200}
-              />
+              Shigora
             </a>
             <button
               type="button"
@@ -452,7 +446,7 @@ export default function Navbar() {
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white hover:bg-gray-800">
+                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font- leading-7  hover:bg-gray-200">
                         Financial Instruments
                         <ChevronDownIcon
                           className={classNames(
@@ -468,7 +462,7 @@ export default function Navbar() {
                             key={item.name}
                             as="a"
                             href={item.href}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white hover:bg-gray-800"
+                            className="block rounded-lg py-2 pl-6 pr-3 text-sm f leading-7 hover:bg-gray-200"
                           >
                             {item.name}
                           </Disclosure.Button>
@@ -480,7 +474,7 @@ export default function Navbar() {
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white hover:bg-gray-800">
+                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base  leading-7 hover:bg-gray-200">
                         Case Studies
                         <ChevronDownIcon
                           className={classNames(
@@ -496,7 +490,7 @@ export default function Navbar() {
                             key={item.name}
                             as="a"
                             href={item.href}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white hover:bg-gray-800"
+                            className="block rounded-lg py-2 pl-6 pr-3 text-sm  leading-7  hover:bg-gray-200"
                           >
                             {item.name}
                           </Disclosure.Button>
@@ -508,7 +502,7 @@ export default function Navbar() {
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white hover:bg-gray-800">
+                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base  leading-7  hover:bg-gray-200">
                         Insights
                         <ChevronDownIcon
                           className={classNames(
@@ -524,7 +518,7 @@ export default function Navbar() {
                             key={item.name}
                             as="a"
                             href={item.href}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white hover:bg-gray-800"
+                            className="block rounded-lg py-2 pl-6 pr-3 text-sm  leading-7  hover:bg-gray-200"
                           >
                             {item.name}
                           </Disclosure.Button>
@@ -535,13 +529,13 @@ export default function Navbar() {
                 </Disclosure>
                 <Link
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base  leading-7  hover:bg-gray-200"
                 >
                   Company
                 </Link>
                 <Link
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7  hover:bg-gray-200"
                 >
                   Contact
                 </Link>

@@ -10,6 +10,7 @@ import {
   Box,
 } from "@chakra-ui/react";
 import OtherFinancialInstrument from "./OtherFinancialInstrument";
+import { WhatSetApart } from "./WhatSetApart";
 
 const UBLarray = [
   {
@@ -189,52 +190,7 @@ const msmeloan = () => {
             </ul>
           </div>
 
-          <div>
-            <h1 className="text-[25px] font-bold">What set us apart?</h1>
-            <div className="">
-              {/* {UBLarray.map((data, index) => ( */}
-              <div>
-                <Tabs orientation="vertical" >
-                  <TabList
-                    mb="1em"
-                    className="text-black font-bold text-[20px]"
-                  >
-                    <Tab>1. Fast Turnaround Time</Tab>
-                    <Tab>2. Confidentiality</Tab>
-                    <Tab>3. Competitive ROI</Tab>
-                    <Tab>4. Hassle-free Processing</Tab>
-                    <Tab>5. High Level of Integrity</Tab>
-                  </TabList>
-                  <TabPanels>
-                    <TabPanel className="">
-                      We cordially track the deadlines and make our quality
-                      tangible, while executing finance projects well ahead of
-                      time.
-                    </TabPanel>
-                    <TabPanel>
-                      We comply with the highest professional confidentiality
-                      standards. All client information is discussed in strict
-                      confidentiality.
-                    </TabPanel>
-                    <TabPanel>
-                      We find you the right lenders with the similar terms and
-                      the lowest rate of interest.
-                    </TabPanel>
-                    <TabPanel>
-                      We create a stable ownership structure for financiers by
-                      establishing a secure transaction process.
-                    </TabPanel>
-                    <TabPanel>
-                      We are building our reputation through reliability,
-                      integrity, and honesty. We connect to our clients on
-                      personal grounds that include transparency and liability.
-                    </TabPanel>
-                  </TabPanels>
-                </Tabs>
-              </div>
-              {/* ))} */}
-            </div>
-          </div>
+          <WhatSetApart />
         </div>
       </div>
 

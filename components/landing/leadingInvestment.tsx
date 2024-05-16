@@ -2,12 +2,12 @@ import React from 'react'
 
 const leadingInvestment = () => {
   return (
-    <div className='p-40'>
-        <div className='flex gap-2 items-center'>
+    <div className='p-4'>
+        <div className='flex flex-col sm:flex-col md:flex-row gap-2 items-center md:p-10'>
             <div className='bg-black text-white p-4'>
 
                 <h1 className='text-[30px] font-bold '>Leading Investment Banking firm</h1>
-                <div className='p-4'>
+                <div className='p-2'>
                 <p className='text-[17px]'>
                 We offer advice on all types of financial instruments and capital funding. Our philosophy is centred around empowering and enabling businesses of all sizes throughout India by providing support and creating growth opportunities. 
                 </p>
@@ -16,11 +16,14 @@ const leadingInvestment = () => {
                 </p>
                 </div>
             </div>
-            <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/d8yp2p3rTDg?si=HkQBOwp1oEaKQ5ep" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-            </div>
+            {/* <div className='p sm:hidden'>
+            <iframe className='' width="560" height="315" src="https://www.youtube.com/embed/d8yp2p3rTDg?si=HkQBOwp1oEaKQ5ep" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            </div> */}
+            {/* <div className='p-2 lg:hidden '>
+            <iframe className='' width="360" height="190" src="https://www.youtube.com/embed/d8yp2p3rTDg?si=HkQBOwp1oEaKQ5ep" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            </div> */}
         </div>
-        <p className='text-[#7A7A7A] text-[17px] tracking-[0.7px] p-3'>
+        <p className='text-[#7A7A7A] text-[17px] tracking-[0.7px] p-4'>
         Our head office is at Prabhat Road in Pune, and we extend our operations to Pimpri Chinchwad too. We also have a corporate office in BKC, Mumbai, serving the entire Mumbai metropolitan area. We provide capital to both urban and rural companies to meet their production needs when starting new businesses or growing an existing business. We help bridge the gap between eligible borrowers and capable lenders in India.
         </p>
       

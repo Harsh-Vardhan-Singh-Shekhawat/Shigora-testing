@@ -49,7 +49,7 @@ const projectfinance = () => {
 
       
 
-      <div className="px-28 grid grid-cols-2 justify-evenly text-[17px] tracking-[0.7px]">
+      <div className="px-28 grid grid-cols-2 gap-2 text-[17px] tracking-[0.7px]">
         <div className="p-5  shadow-xl">
           <p className="">
           Thus, David is thinking to take funding from a financial institution. If he takes the funding in rupees, which is very traditional, he has to deal with the Indian inflation rate and high cost of capital. This time while raising the funds, he is very much sure. So, he wants to arrange for the cheapest cost of capital. But David is still confused if any such facility is available for him in the market.

@@ -10,6 +10,7 @@ import {
   Box,
 } from "@chakra-ui/react";
 import OtherFinancialInstrument from "@/components/financialinstrument/OtherFinancialInstrument";
+import { WhatSetApart } from "./WhatSetApart";
 
 const corporateArray = [
   {
@@ -53,7 +54,7 @@ const corporatefinance = () => {
       </div>
 
       <div className="flex items-center px-40">
-        <div className="p-5">
+        <div className="p-5 w-1/2">
           <h1 className="text-[25px] font-bold py-4">
             Grow, optimize, & maximize your business
           </h1>
@@ -164,12 +165,12 @@ const corporatefinance = () => {
 
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="p-2 px-4 text-[17px] tracking-[0.7px]">
         Corporate finance encompasses the crucial aspects and the steps management takes to increase the value of a company. It is considered a liaison between the capital market and the institution. Thus, it deals with the capital formation and development of the corporation.
 
 
         </p>
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="p-2 px-4 text-[17px] tracking-[0.7px]">
         In practical terms, Corporate finance includes the company’s decisions about its financial results, tools, and analysis used to prioritize and allocate financial resources. So, corporate financing ultimately aims to increase the value of the business by planning & implementing resources and balancing risk & profitability.
 
 
@@ -190,11 +191,11 @@ const corporatefinance = () => {
             </ul>
           </div>
 
-          <div>
-            <h1 className="text-[25px] font-bold">What set us apart?</h1>
-            <div className="">
+          {/* <div> */}
+            {/* <h1 className="text-[25px] font-bold">What set us apart?</h1> */}
+            {/* <div className=""> */}
               {/* {UBLarray.map((data, index) => ( */}
-              <div>
+              {/* <div>
                 <Tabs orientation="vertical" isFitted variant="enclosed">
                   <TabList
                     mb="1em"
@@ -232,10 +233,14 @@ const corporatefinance = () => {
                     </TabPanel>
                   </TabPanels>
                 </Tabs>
-              </div>
+              </div> */}
+
               {/* ))} */}
-            </div>
-          </div>
+            {/* </div> */}
+
+          {/* </div> */}
+          <WhatSetApart />
+
         </div>
       </div>
 

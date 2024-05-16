@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 const TerkarCapital = () => {
   return (
-    <div className='p-10'>
-      <div className='flex'>
-        <div className='bg-zinc-900 text-white'>
+    <div className='my-4 md:my-20'>
+      <div className='flex flex-col md:flex-row items-center gap-2'>
+        <div className='bg-zinc-900 text-white '>
         <h1 className="p-2 text-[30px]">
             Why Terkar Capital?
         </h1>
@@ -17,7 +17,10 @@ const TerkarCapital = () => {
             <li>We value and promote seamless interaction with clients.</li>
         </ul>
         </div>
-            <Image  width={700} height={400} className='w-full' src="/why-terkar-capital.webp" alt="why-terkar-img" />
+        <div className=''>
+        <Image  width={600} height={400} className=' bg-contain' src="/why-terkar-capital.webp" alt="why-terkar-img" />
+
+        </div>
       </div>
     </div>
   )

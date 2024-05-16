@@ -6,7 +6,7 @@ const tradingfinance = () => {
   return (
     <div className="px-40 py-10 text-[#7c7c7c]">
       <div className="">
-        <h1 className="text-[25px] text-black  font-bold">
+        <h1 className="text-[25px] text-black font-bold">
         The Process of Trade Financing (Case Study)
         </h1>
         <p className="p-5 text-[17px] tracking-[0.7px]">
@@ -22,7 +22,7 @@ const tradingfinance = () => {
         </p>
       </div>
 
-      <div className="px-28 grid grid-cols-2 justify-evenly text-[17px] tracking-[0.7px]">
+      <div className="px-28 grid grid-cols-2 gap-2 text-[17px] tracking-[0.7px]">
         <div className="p-5  shadow-xl">
           <p className="">
           John decided to take a loan from a financial institution in order to help his company enter the international market. According to his analysis, he will require Rs. 5 crores to kick start his business internationally starting with the US. He approached some financial institutions but they refused to approve John’s loans. Unfortunately, he did not have any assets or property which he can keep as collateral with the financial institution. 

@@ -20,7 +20,7 @@ const projectfinance = () => {
       The Execution Process
         </h1>
 
-      <div className="px-28 grid grid-cols-2 justify-evenly text-[17px] tracking-[0.7px]">
+      <div className="px-28 grid grid-cols-2 gap-2 text-[17px] tracking-[0.7px]">
         <div className="p-5  shadow-xl">
           <p className="">
           Considering their current requirement in mind, they approached their current banker. However, the current banker insisted on a mortgage, which posed a challenge for Robert, David, and John. And Robert, David, and John being the 1st generation entrepreneurs have not created the assets at that time. Whatever the profits they used to earn, they invested back in the business to scale it. This is shown in their last year’s turnover of Rs. 8.75 crores.

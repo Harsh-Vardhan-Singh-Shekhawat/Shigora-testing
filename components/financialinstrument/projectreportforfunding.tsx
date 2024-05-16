@@ -1,8 +1,9 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
+import { Tabs, TabList, TabPanels, Tab, TabPanel, TabIndicator } from "@chakra-ui/react";
 
 import OtherFinancialInstrument from "./OtherFinancialInstrument";
+import { WhatSetApart } from "./WhatSetApart";
 
 const UBLarray = [
   {
@@ -46,177 +47,56 @@ const projectReportFunding = () => {
         </Marquee>
       </div>
 
-      <div className="flex items-center px-40">
-        <div className="p-5">
-          <h1 className="text-[25px] font-bold py-4">
-            Secure Funding by availing a comprehensive Project Report
-
-          </h1>
-          <ul className="py-4 grid gap-4">
-            <li>Industry-best rate of interest</li>
-            <li>Fast turnaround time in arranging funds</li>
-            <li>Conventional & Non-conventional debt products</li>
-            <li>End to end execution of process</li>
-            <li>Associated with more than 100+ financial institution</li>
-            <li>Strong experience in dealing with 400+ corporate clients</li>
-          </ul>
-
-          <button className="rounded-full bg-blue-500 hover:bg-blue-700 text-white p-4 font-bold tracking-wide">
-            Calculate Business Loan EMI
-          </button>
+      <div className=" px-40">
+        <div>
+        <h1 className="text-[25px] font-bold m-auto  p-2">Project Report for Funding</h1>
         </div>
+        <p className="p-2 py- text-[17px] text-[#7a7a7a] tracking-[0.7px]">
+        Benjamin Franklin very well said, Fail to plan is planning to fail. So, whenever you’re planning to expand through your existing setup or through your new unit, or through vertical or horizontal expansion, you must be ready with the projections and the plan. There are many questions you need to clarify.
+        </p>
+      </div>
 
-        <div className="shadow-lg w-1/2  p-4 m-4">
-          <div className="w-full  ">
-            <form className="  rounded px-4 mb-4">
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="name"
-                  type="text"
-                  placeholder="Full Name"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="email"
-                  type="email"
-                  placeholder="Email Address"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="mobile"
-                  type="text"
-                  placeholder="Cell Number"
-                />
-              </div>
-
-              <div className="flex">
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Business Location"
-                  />
-                </div>
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Company Vintage"
-                  />
-                </div>
-              </div>
-
-              <div className="flex ">
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Amount Looking FOr"
-                  />
-                </div>
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Company Turnover"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <textarea
-                  rows={5}
-                  placeholder="Soft Comment on Company & Director CIBIL"
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                ></textarea>
-              </div>
-
-              <div className="">
-                <button
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-5  focus:outline-none focus:shadow-outline"
-                  type="submit"
-                >
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
+      <div className=" px-40">
+        <div>
+        <h1 className="text-[25px] font-bold m-auto  p-2">Key Considerations for Project Evaluation</h1>
         </div>
+        <p className="p-2 py- text-[17px] text-[#7a7a7a] tracking-[0.7px]">
+        For example, How much time you may be required to set up the unit? How much time is required to make the unit profitable? What is the amount of funds required? What is the discounted value of the cash throughout the project? And many more. We understand how many projections you need to consider and what aspects you need to take care of before starting the projects.
+
+We at Terkar Capital, understand the whole project. Thus, we prepare the project report with the best possible outcomes.
+        </p>
+      </div>
+
+      <div className=" px-40">
+        <div>
+        <h1 className="text-[25px] font-bold m-auto  p-2">Avail of Project Report for Funding with Terkar Capital</h1>
+        </div>
+        <p className="p-2 py- text-[17px] text-[#7a7a7a] tracking-[0.7px]">
+        We at Terkar Capital provide a comprehensive analysis of your project, covering all its aspects from conception to execution. It goes beyond simply outlining tasks and timelines, acting as a bridge between your vision and potential external influences. By utilizing financial instruments, the report meticulously analyzes potential outcomes, presenting not just one ideal scenario, but a range of possibilities.
+
+This detailed analysis empowers you to make informed decisions by equipping you with a clear understanding of the various paths your project can take.
+        </p>
       </div>
 
      
 
-      <div className="px-40">
-        <div className="flex gap-2">
-          <div className="bg-black text-white p-10">
-            <h3 className="text-[18px] font-bold">Bill Discounting</h3>
+      {/* <div className="px-40 w-full">
+        <div className="flex gap-2 ">
+          <div className="bg-black text-white p-3 w-1/3">
+            <h3 className="text-[18px] font-bold">Project report for Funding</h3>
             <h1 className="text-[33px] font-bold">Key Features</h1>
             <ul className="p-5 list-disc tracking-[0.7px]">
-              <li>Avail short-term loan </li>
-              <li>Collateral-free facility</li>
-              <li>Flexible terms</li>
-              <li>Convenient funding</li>
-              <li>Discounting up to 95% of the invoice amount</li>
+              <li>CA-certified project report </li>
+              <li>Covering 360-degree aspects to execute the projects</li>
+              <li>Connecting the dots between your expectations and externally affecting factors</li>
+              <li>Analyze projects with financial tools, and share viable outcomes</li>
+              <li>Sharing all the scenarios as input to take your project decisions</li>
             </ul>
           </div>
 
-          <div>
-            <h1 className="text-[25px] font-bold">What set us apart?</h1>
-            <div className="">
-              {/* {UBLarray.map((data, index) => ( */}
-              <div>
-                <Tabs orientation="vertical" isFitted variant="enclosed">
-                  <TabList
-                    mb="1em"
-                    className="text-black font-bold text-[20px] flex flex-col"
-                  >
-                    <Tab>1. Fast Turnaround Time</Tab>
-                    <Tab>2. Confidentiality</Tab>
-                    <Tab>3. Competitive ROI</Tab>
-                    <Tab>4. Hassle-free Processing</Tab>
-                    <Tab>5. High Level of Integrity</Tab>
-                  </TabList>
-                  <TabPanels>
-                    <TabPanel className="">
-                      We cordially track the deadlines and make our quality
-                      tangible, while executing finance projects well ahead of
-                      time.
-                    </TabPanel>
-                    <TabPanel>
-                      We comply with the highest professional confidentiality
-                      standards. All client information is discussed in strict
-                      confidentiality.
-                    </TabPanel>
-                    <TabPanel>
-                      We find you the right lenders with the similar terms and
-                      the lowest rate of interest.
-                    </TabPanel>
-                    <TabPanel>
-                      We create a stable ownership structure for financiers by
-                      establishing a secure transaction process.
-                    </TabPanel>
-                    <TabPanel>
-                      We are building our reputation through reliability,
-                      integrity, and honesty. We connect to our clients on
-                      personal grounds that include transparency and liability.
-                    </TabPanel>
-                  </TabPanels>
-                </Tabs>
-              </div>
-              {/* ))} */}
-            </div>
-          </div>
+          <WhatSetApart />
         </div>
-      </div>
+      </div> */}
 
       <OtherFinancialInstrument />
 
@@ -227,3 +107,7 @@ const projectReportFunding = () => {
 };
 
 export default projectReportFunding;
+
+const projectImage  = () => {
+  
+}

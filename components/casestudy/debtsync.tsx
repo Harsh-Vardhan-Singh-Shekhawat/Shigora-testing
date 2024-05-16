@@ -26,7 +26,7 @@ const debtsync = () => {
         </p>
       </div>
 
-      <div className="px-28 grid grid-cols-2 justify-evenly text-[17px] tracking-[0.7px]">
+      <div className="px-28 grid grid-cols-2 gap-2 text-[17px] tracking-[0.7px]">
         <div className="p-5  shadow-xl">
           <p className="">
             While he is calculating and analyzing the amount of funding required

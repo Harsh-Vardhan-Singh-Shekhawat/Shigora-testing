@@ -15,7 +15,7 @@ const projectfinance = () => {
 
       </div>
       <div className="">
-        <h1 className="text-[25px] text-black  font-bold">
+        <h1 className="text-[25px] text-black font-bold">
         Financial Snapshots
         </h1>
 
@@ -82,7 +82,7 @@ const projectfinance = () => {
 
       
 
-      <div className="px-28 grid grid-cols-2 justify-evenly text-[17px] tracking-[0.7px]">
+      <div className="px-28 grid grid-cols-2 gap-2 text-[17px] tracking-[0.7px]">
         <div className="p-5  shadow-xl">
           <p className="">
           However, Mr Kamat is not sure, if the payment is made Mr Karl will deliver the goods or not. And Mr Karl is not sure if the goods are delivered or manufactured, or whether Mr Kamat will make the payment or not. Both of them are very genuine business companies. So they decided to effect the transaction backed by the LC discounting. So this can give the comfort of the transaction to both Mr Karl and Mr Kamat. Let’s understand the Letter of credit discounting facility in this case study!!

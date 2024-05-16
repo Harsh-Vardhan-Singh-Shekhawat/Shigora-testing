@@ -37,11 +37,11 @@ const setApartArray = [
 
 const setApart = () => {
   return (
-    <div className='text-center px-40'>
+    <div className='text-center p-3'>
       <h1 className='text-[30px] font-bold p-10'>What sets us Apart?</h1>
-      <div className='grid grid-cols-3 gap-2 '>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 '>
         {setApartArray.map((data) => (
-            <div className='text-left p-4 shadow-lg bg-white flex gap-2'>
+            <div className='text-left p-4 shadow-lg bg-white flex '>
                 <div>
                 <BsFillHandIndexThumbFill className="rotate-90 text-xl " />
                     </div>

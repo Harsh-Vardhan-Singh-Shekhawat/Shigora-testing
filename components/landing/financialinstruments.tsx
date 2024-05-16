@@ -97,9 +97,9 @@ const financeArray  = [
 ]
 const financialinstruments = () => {
   return (
-    <div className='text-center px-40'>
+    <div className='text-center px-8 '>
       <h1 className='text-[30px] font-bold'>Top Financial Instruments We Arrange</h1>
-      <div className='grid grid-cols-4 gap-2'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2'>
             {financeArray.map((data) => (
                 <div>
                 {

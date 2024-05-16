@@ -7,22 +7,16 @@ const tradingfinance = () => {
     <div className="px-40 py-10 text-[#7c7c7c]">
       <div className="">
         <h1 className="text-[25px] text-black  font-bold">
-        The Process of Trade Financing (Case Study)
+        CGTMSE Loan Process (Case Study)
+
+)
         </h1>
         <p className="p-5 text-[17px] tracking-[0.7px]">
-        To understand the process of trade financing, we will consider John’s business situation.
-        </p>
-
-        <p className="p-5 text-[17px] tracking-[0.7px]">
-        John owns a food products company named JK Foods Private Limited. His company is one of the leading companies in the food industry. He started the company in 2014 and the company has been growing rapidly. The turnover of his company is Rs. 50 crores now. John now wants to enter the international marketplace. He is aware of the demand for Indian food products internationally and wants to export his products across the globe. 
-        </p>
-
-        <p className="p-5 text-[17px] tracking-[0.7px]">
-        But there are several challenges in the international market. The challenge of working capital, the challenge of the surety of the payment, the challenge of the credit period, and so on. Earlier, he had many times planned for the export, but every time he stopped because of these challenges. But this time he is very stubborn. And he was very much aware of the fact that businesses have to take risks.
+        Robert, David, and John, college graduates and founders of RDJ Engineering Services Private Limited established their manufacturing business approximately 2.5 years ago. The company works in engineering goods manufacturing. As their business is expanding rapidly, they need funding to buy new machinery and working capital. The cost of the machinery was Rs. 49 lacs (Including GST and installation). The remaining Rs. 26 lacs were required to purchase raw materials and other working capital.
         </p>
       </div>
 
-      <div className="px-28 grid grid-cols-2 justify-evenly text-[17px] tracking-[0.7px]">
+      <div className="px-28 grid grid-cols-2 gap-2 text-[17px] tracking-[0.7px]">
         <div className="p-5  shadow-xl">
           <p className="">
           John decided to take a loan from a financial institution in order to help his company enter the international market. According to his analysis, he will require Rs. 5 crores to kick start his business internationally starting with the US. He approached some financial institutions but they refused to approve John’s loans. Unfortunately, he did not have any assets or property which he can keep as collateral with the financial institution. 

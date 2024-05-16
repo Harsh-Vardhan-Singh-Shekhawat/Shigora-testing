@@ -30,7 +30,7 @@ const projectfinance = () => {
         </p>
       </div>
 
-      <div className="px-28 grid grid-cols-2 justify-evenly text-[17px] tracking-[0.7px]">
+      <div className="px-28 grid grid-cols-2 gap-2 text-[17px] tracking-[0.7px]">
         <div className="p-5  shadow-xl">
           <p className="">
             As a good businessman, this is not a good course of action. So he

@@ -17,7 +17,7 @@ const debtsync = () => {
         
       </div>
 
-      <div className="px-28 grid grid-cols-2 justify-evenly text-[17px] tracking-[0.7px]">
+      <div className="px-28 grid grid-cols-2 gap-2 text-[17px] tracking-[0.7px]">
         <div className="p-5  shadow-xl">
           <p className="">
           The sugar industry is one of the most capital-intensive industries. It is with a huge amount of capital involved to start and run the sugar factories. The turnaround time for sugarcane to cash is also very high. Therefore, one of the foremost issues John is facing is financing sugar mills. The time gap between the production of sugar and the selling of sugar to the market is also very high. Most of the time the sale of sugar is controlled by the government. John’s sugar factories have sugar stock that is worth crores of rupees. But this stock is basically just idle unless it gets converted to capital. 

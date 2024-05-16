@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react";
 import OtherFinancialInstrument from "@/components/financialinstrument/OtherFinancialInstrument";
 import TabFeature from '@/components/Tab'
+import { WhatSetApart } from "./WhatSetApart";
 const privateDebtArray = [
   {
     id: 1,
@@ -64,7 +65,7 @@ const privateEquity = () => {
 
       <div className="flex items-center px-40">
         <div className="p-5">
-          <h1 className="text-[25px] font-bold py-4">
+          <h1 className="text-[24px] font-bold py-2">
             Secure funding for your business through Private Debt Instrument
           </h1>
           <ul className="py-4 grid gap-4">
@@ -182,53 +183,7 @@ const privateEquity = () => {
             </ul>
           </div>
 
-          <div>
-            <h1 className="text-[25px] font-bold">What set us apart?</h1>
-            <div className="">
-              {/* {UBLarray.map((data, index) => ( */}
-              <div>
-                <Tabs orientation='vertical' isLazy align='start' variant='enclosed'>
-                  <TabList   
-                    aria-orientation='vertical'               
-                    mb="1em"
-                    className="text-black font-bold text-[18px]  fex-col"
-                  >
-                    <Tab>1. Fast Turnaround Time</Tab>
-                    <Tab>2. Confidentiality</Tab>
-                    <Tab>3. Competitive ROI</Tab>
-                    <Tab>4. Hassle-free Processing</Tab>
-                    <Tab>5. High Level of Integrity</Tab>
-                  </TabList>
-                  <TabPanels>
-                    <TabPanel className="">
-                      We cordially track the deadlines and make our quality
-                      tangible, while executing finance projects well ahead of
-                      time.
-                    </TabPanel>
-                    <TabPanel>
-                      We comply with the highest professional confidentiality
-                      standards. All client information is discussed in strict
-                      confidentiality.
-                    </TabPanel>
-                    <TabPanel>
-                      We find you the right lenders with the similar terms and
-                      the lowest rate of interest.
-                    </TabPanel>
-                    <TabPanel>
-                      We create a stable ownership structure for financiers by
-                      establishing a secure transaction process.
-                    </TabPanel>
-                    <TabPanel>
-                      We are building our reputation through reliability,
-                      integrity, and honesty. We connect to our clients on
-                      personal grounds that include transparency and liability.
-                    </TabPanel>
-                  </TabPanels>
-                </Tabs>
-              </div>
-              {/* ))} */}
-            </div>
-          </div>
+          <WhatSetApart />
         </div>
       </div>
 

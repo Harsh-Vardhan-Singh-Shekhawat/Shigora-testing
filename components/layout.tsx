@@ -47,7 +47,7 @@ type LayoutProps = {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div>
+    <div className=''>
       <Booking />
       <Navbar/>
       {children}

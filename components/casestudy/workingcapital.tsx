@@ -70,7 +70,7 @@ const tradingfinance = () => {
       <h1 className="text-[25px] p-4 text-black  font-bold">
         Analyzing Inputs
       </h1>
-      <div className="px-28 grid grid-cols-2 justify-evenly text-[17px] tracking-[0.7px]">
+      <div className="px-28 grid grid-cols-2 gap-2 text-[17px] tracking-[0.7px]">
         <div className="p-5  shadow-xl">
           <p className="">
             We met Rajan and had a thorough discussion about finances. We asked
