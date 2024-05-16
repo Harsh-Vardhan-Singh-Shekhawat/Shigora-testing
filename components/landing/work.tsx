@@ -2,7 +2,7 @@ import React from 'react'
 
 const work = () => {
   return (
-    <div className='text-center '>
+    <div className='text-center w-full'>
       <h1 className='text-[30px] font-bold py-10'>How do we work?</h1>
 
       <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 text-white  tracking-[0.7px] text-left text-[20px] justify-center'>

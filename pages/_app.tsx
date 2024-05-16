@@ -5,7 +5,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-  <Layout className="max-w-7xl m-auto" >
+  <Layout  >
     <ChakraProvider>
       <Component {...pageProps} />
      </ChakraProvider>

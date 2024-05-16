@@ -110,7 +110,7 @@ const financialinstruments = () => {
                     <button className='uppercase bg-black text-white px-3 py-2 rounded-full'> Read More</button>
                 </div>
                     ) : (
-                        <Link href="/financial-instruments">View All</Link>
+                        <Link href="/financial-instruments" className='flex justify-center items-center text-black no-underline'>View All</Link>
                     )
                 }
                 </div>
