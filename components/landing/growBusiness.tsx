@@ -2,7 +2,7 @@ import React from 'react'
 
  const growBusiness = () => {
   return (
-    <div className='bg-[#fff0] p-2 md:p-4'>
+    <div className='bg-[#fff0] p-2 md:p-4 py-10'>
         <div className='text-center'>
             <h1 className='font-bold'>
             Grow Business with Terkar Capital

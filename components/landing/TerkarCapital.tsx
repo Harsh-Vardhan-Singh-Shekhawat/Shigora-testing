@@ -5,8 +5,8 @@ const TerkarCapital = () => {
   return (
     <div className='my- sm:my-4 md:my-20 lg:my-20'>
       <div className='flex flex-col md:flex-row items-center gap-2'>
-        <div className='bg-zinc-900 text-white '>
-        <h1 className="p-2 text-[30px]">
+        <div className='bg-zinc-900 text-white w-full md:w-1/2'>
+        <h1 className="p-4 text-[30px]">
             Why Terkar Capital?
         </h1>
         <ul className='list-disc p-5'>
@@ -17,7 +17,7 @@ const TerkarCapital = () => {
             <li>We value and promote seamless interaction with clients.</li>
         </ul>
         </div>
-        <div className=''>
+        <div className='w-full md:w-1/2'>
         <Image  width={600} height={400} className=' bg-contain' src="/why-terkar-capital.webp" alt="why-terkar-img" />
 
         </div>

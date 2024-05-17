@@ -2,8 +2,8 @@ import React from 'react'
 
 const leadingInvestment = () => {
   return (
-    <div className='p-4'>
-        <div className='flex flex-col sm:flex-col md:flex-row gap-2 items-center md:p-10'>
+    <div className='p-2'>
+        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-1 justify-center justify-items-center items-center md:p-10'>
             <div className='bg-black text-white p-4'>
 
                 <h1 className='text-[30px] font-bold '>Leading Investment Banking firm</h1>
@@ -16,8 +16,8 @@ const leadingInvestment = () => {
                 </p>
                 </div>
             </div>
-            <div className='p '>
-            <iframe className='' width="560" height="315" src="https://www.youtube.com/embed/d8yp2p3rTDg?si=HkQBOwp1oEaKQ5ep" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            <div className=''>
+            <iframe className='w-[360px] h-[190px] sm:w-[420px] sm:h-[240px] md:w-[560px] md:h-[310px]' src="https://www.youtube.com/embed/d8yp2p3rTDg?si=HkQBOwp1oEaKQ5ep" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
             {/* <div className='p-2 lg:hidden '>
             <iframe className='' width="360" height="190" src="https://www.youtube.com/embed/d8yp2p3rTDg?si=HkQBOwp1oEaKQ5ep" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
