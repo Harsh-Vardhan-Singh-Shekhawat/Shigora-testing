@@ -18,75 +18,75 @@ const financeArray  = [
         id:1,
         title:'Corporate Finance',
         img:img1,
-        link:"/corporate-finance"
+        link:"/financial-instruments/corporate-finance"
         
     },
     {
         id:2,
         title:'Unsecured Debt Products',
         img:img2,
-        link:"/unsecured-debt-products"
+        link:"/financial-intruments/unsecured-debt-products"
         
     },
     {
         id:3,
         title:'Secured Debt Products',
         img:img3,
-        link:"/secured-debt-products"
+        link:"/financial-intruments/secured-debt-products"
         
     },
     {
         id:4,
         title:'Funding for Doctors/CA',
         img:img4,
-        link:"/loan-for-professionals"
+        link:"/financial-intruments/loan-for-professionals"
         
     },
     {
         id:5,
         title:'Machinery Loan',
         img:img5,
-        link:"/machinery-loan"
+        link:"/financial-intruments/machinery-loan"
         
     },
     {
         id:6,
         title:'Unsecured Working Capital',
         img:img6,
-        link:"/unsecured-working-capital-loan"
+        link:"/financial-intruments/unsecured-working-capital-loan"
     },
     {
         id:7,
         title:'Loan Under CGTMSE',
         img:img7,
-        link:"cgtmse-loan"
+        link:"/financial-intruments/cgtmse-loan"
     },
     {
         id:8,
         title:'MSME Loan',
         img:img8,
-        link:"/msme-loan"
+        link:"/financial-intruments/msme-loan"
         
     },
     {
         id:9,
         title:'LAP Facility',
         img:img9,
-        link:"loan-against-property-service"
+        link:"/financial-intruments/loan-against-property-service"
         
     },
     {
         id:10,
         title:'Project Funding',
         img:img10,
-        link:"/project-funding"
+        link:"/financial-intruments/project-funding"
         
     },
     {
         id:11,
         title:'Structured Debt Funding',
         img:img11,
-        link:"/loan-against-securites"
+        link:"/financial-intruments/loan-against-securites"
     },
     {
         id:12,
@@ -107,11 +107,11 @@ const financialinstruments = () => {
                         <div className='shadow-xl p-[10px]'>
                     <Image src={data.img} alt='img' />
                     <h1 className='text-[18px] font-semibold'>{data.title}</h1>
-                    <button className='uppercase bg-black text-white px-3 py-2 rounded-full'> Read More</button>
+                    <Link href={data.link} className='uppercase bg-black text-white border-2 border-black px-3 py-2 rounded-full hover:bg-white hover:text-black  duration-300'> Read More</Link>
                 </div>
                     ) : (
-                        <div className='flex justify-center items-center relative'>
-                            <Link href="/financial-instruments" className='absolute flex justify-center items-center    '>View All</Link>
+                        <div className='flex justify-center items-center relative w-full h-[340px] mt-2 bg-white shadow-xl'>
+                            <Link href="/financial-instruments" className='absolute flex justify-center items-center font-semibold   '>View All</Link>
                         </div>
                     )
                 }

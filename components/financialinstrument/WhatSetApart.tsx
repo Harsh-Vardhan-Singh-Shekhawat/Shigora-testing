@@ -4,7 +4,7 @@ import { Tabs, TabList, TabPanels, Tab, TabPanel, TabIndicator } from "@chakra-u
 
 export const WhatSetApart = () => {
   return (
-    <div className="w-2/3 shadow-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-3">
+    <div className="w-3/4 shadow-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-3 border-[1px] border-[]">
             <h1 className="text-[25px] font-bold m-auto text-center p-1">What set us apart?</h1>
             <div className="">
               {/* {UBLarray.map((data, index) => ( */}
@@ -43,7 +43,7 @@ export const WhatSetApart = () => {
                       bg="blue.500"
                       borderRadius="1px"
                     />
-                  <TabPanels  className="border-[1px] w-2/3" >
+                  <TabPanels  className="border-[1px]" >
                     <TabPanel className="">
                       We cordially track the deadlines and make our quality
                       tangible, while executing finance projects well ahead of

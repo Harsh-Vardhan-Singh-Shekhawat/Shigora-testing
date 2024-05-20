@@ -10,7 +10,7 @@ const TerkarCapital = () => {
             Why Terkar Capital?
         </h1>
         <ul className='list-disc p-5'>
-            <li className='list-disc'>Leading Investment Banking firm in India</li>
+            <li className=''>Leading Investment Banking firm in India</li>
             <li>We are best at providing end-to-end funding needs and financial solutions to Corporate clients.</li>
             <li>Offers a broad range of advanced, tailored, affordable funding solutions along with world-class financial expertise.</li>
             <li>We take professional, innovative, and proactive steps in solving multifaceted Financial business problems.</li>

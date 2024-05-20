@@ -2,13 +2,13 @@ import React from 'react'
 
  const growBusiness = () => {
   return (
-    <div className='bg-[#fff0] p-2 md:p-4 py-10'>
+    <div className='bg-[#fff0] p-10 bg-[#e6e6e6] bg-opacity-25 '>
         <div className='text-center'>
-            <h1 className='font-bold'>
+            <h1 className='font-bold text-[30px]'>
             Grow Business with Terkar Capital
             </h1>
         </div>
-        <div className='text-[#7a7a7a] font-[17px]'>
+        <div className='text-[#7a7a7a] font-[17px] p-4'>
             <p>
             Terkar Capital facilitate all types of debt funding instruments and corporate financing. Our philosophy is centred around empowering and enabling businesses of all sizes throughout India by providing support and creating growth opportunities. We aim to reach out to the unorganized and financially excluded sectors of SMEs. Our objective is to provide access to finance at affordable rates and with utmost transparency.
             </p>

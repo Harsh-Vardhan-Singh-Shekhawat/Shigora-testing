@@ -48,8 +48,10 @@ type LayoutProps = {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div className=''>
+      <div className=' '>
       <Booking />
       <Navbar/>
+      </div>
       {children}
       <Footer/>
     </div>

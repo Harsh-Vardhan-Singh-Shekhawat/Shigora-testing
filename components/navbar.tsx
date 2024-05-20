@@ -22,19 +22,19 @@ const finance = [
   {
     name: "Unsecured Debt Products",
     description: "Get a better understanding of your traffic",
-    href: "", ///financial-instruments/unsecured-debt-products
+    href: "/financial-instruments/unsecured-debt-products", 
     icon: ChartPieIcon,
   },
   {
     name: "Secured Funding Debt",
     description: "Speak directly to your customers",
-    href: "",///financial-instruments/secure-funding-products
+    href: "/financial-instruments/secured-funding-funds",
     icon: CursorArrowRaysIcon,
   },
   {
     name: "Loan For Professional",
     description: "Your customers’ data will be safe and secure",
-    href: "",//financial-instruments/loan-for-profressional
+    href: "/financial-instruments/loan-for-profressional",
     icon: FingerPrintIcon,
   },
   {
@@ -247,7 +247,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className={`${backgroundColor}   w-[100vw] text-black z-50`}>
+    <header className={`${backgroundColor}  w-[100vw] text-black z-50`}>
       <nav
         className="mx-auto flex md:max-w-7xl items-center justify-between p-3 lg:px-8"
         aria-label="Global"
@@ -273,7 +273,7 @@ export default function Navbar() {
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
         <Link
             href="/"
-            className="text-sm text-black font-semibold leading-6 no-underline"
+            className="text-md text-black font-semibold leading-6 no-underline"
           >
             Home
           </Link>
@@ -281,7 +281,7 @@ export default function Navbar() {
             <Popover.Button
               onMouseEnter={() => handleHover("services", true)}
               onMouseLeave={() => handleHover("services", false)}
-              className="flex items-center gap-x-1 text-sm font-semibold leading-6  hover:text-gradient outline-none"
+              className="flex items-center gap-x-1 text-md font-semibold leading-6  hover:text-gradient outline-none"
             >
               Financial Instruments
               <ChevronDownIcon
@@ -299,7 +299,7 @@ export default function Navbar() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute bg-gray-100  w-[250px] text-[#7c7c7c] z-10">
+              <Popover.Panel className="absolute bg-gray-50  w-[250px] font-semibold text-[#7c7c7c] z-10">
                 
                 <div className="  ">
                   {finance.map((item) => (
@@ -326,7 +326,7 @@ export default function Navbar() {
             <Popover.Button
               onMouseEnter={() => handleHover("services", true)}
               onMouseLeave={() => handleHover("services", false)}
-              className="flex items-center gap-x-1 text-sm font-semibold leading-6   hover:text-gradient outline-none"
+              className="flex items-center gap-x-1 text-md font-semibold leading-6   hover:text-gradient outline-none"
             >
               Case Studies
               <ChevronDownIcon
@@ -344,7 +344,7 @@ export default function Navbar() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute bg-gray-100 w-[250px] text-[#7c7c7c] z-10">
+              <Popover.Panel className="absolute bg-gray-50 font-semibold w-[250px] text-[#7c7c7c] z-10">
                 
                 <div className="">
                   {casestudies.map((item) => (
@@ -368,14 +368,14 @@ export default function Navbar() {
             </Transition>
           </Popover>
           
-          <a href="/contact-us" className="text-sm font-semibold leading-6 text-black no-underline">
+          <a href="/contact-us" className="text-md font-semibold leading-6 text-black no-underline">
             Contact Us
           </a>
           <Popover className="relative">
             <Popover.Button
               onMouseEnter={() => handleHover("services", true)}
               onMouseLeave={() => handleHover("services", false)}
-              className="flex items-center gap-x-1 text-sm font-semibold leading-6   hover:text-gradient outline-none"
+              className="flex items-center gap-x-1 text-md font-semibold leading-6   hover:text-gradient outline-none"
             >
               Resources
               <ChevronDownIcon
@@ -393,7 +393,7 @@ export default function Navbar() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute bg-gray-100 w-[200px] text-[#7c7c7c] z-10">
+              <Popover.Panel className="absolute bg-gray-50 font-semibold w-[200px] text-[#7c7c7c] z-10">
                 
                 <div className="">
                   {resources.map((item) => (

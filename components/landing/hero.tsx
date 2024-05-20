@@ -14,14 +14,14 @@ const hero = () => {
   return (
     <div className="">
       <Marquee pauseOnHover>
-          <p className='text-[#7A7A7A] text-[17px] '>
+          <p className='text-[#5E5E5E] text-[17px] '>
               Terkar Capital is a Registered Brand of <b>Terkar Global Financial Development Private Limited.</b>
           </p>
         </Marquee>
       <CCarousel controls transition="crossfade">
         <CCarouselItem>
           <CImage
-            className="d-block w-full h-[600px] object-cover"
+            className="d-block w-full h-[630px] object-cover"
             src="/cover-page-banner.jpg"
             alt="slide 1"
           />
@@ -36,7 +36,7 @@ const hero = () => {
         </CCarouselItem>
         <CCarouselItem>
           <CImage
-            className="d-block w-full h-[600px]"
+            className="d-block w-full h-[630px]"
             src="/cover-image-terkar-capital.jpg"
             alt="slide 2"
           />

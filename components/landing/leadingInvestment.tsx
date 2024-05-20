@@ -19,9 +19,7 @@ const leadingInvestment = () => {
             <div className=''>
             <iframe className='w-[360px] h-[190px] sm:w-[420px] sm:h-[240px] md:w-[560px] md:h-[310px]' src="https://www.youtube.com/embed/d8yp2p3rTDg?si=HkQBOwp1oEaKQ5ep" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-            {/* <div className='p-2 lg:hidden '>
-            <iframe className='' width="360" height="190" src="https://www.youtube.com/embed/d8yp2p3rTDg?si=HkQBOwp1oEaKQ5ep" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-            </div> */}
+            
         </div>
         <p className='text-[#7A7A7A] text-[17px] tracking-[0.7px] p-4'>
         Our head office is at Prabhat Road in Pune, and we extend our operations to Pimpri Chinchwad too. We also have a corporate office in BKC, Mumbai, serving the entire Mumbai metropolitan area. We provide capital to both urban and rural companies to meet their production needs when starting new businesses or growing an existing business. We help bridge the gap between eligible borrowers and capable lenders in India.

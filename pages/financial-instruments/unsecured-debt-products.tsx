@@ -1,9 +1,9 @@
 import React from 'react'
-// import UnsecuredDebtProducts from '@/components/financialinstrument/un'
+import UnsecuredDebtProduct from '@/components/financialinstrument/unsecuredebtproduct'
 const unsecuredDebtProducts = () => {
   return (
     <div>
-      {/* <UnsecuredDebtProduct /> */}
+      <UnsecuredDebtProduct />
     </div>
   )
 }
