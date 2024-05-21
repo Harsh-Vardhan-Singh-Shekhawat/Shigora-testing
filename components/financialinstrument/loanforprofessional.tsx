@@ -6,66 +6,31 @@ import Link from "next/link";
 
 const financeArray = [
 
-  {
-    img: "/Loan-against-property.webp",
-    title: "Loan Against Property",
-    desc: "Overcome business hurdles effortlessly with this long-term loan secured by your valuable property. Lending institutions consider it the safest option, making it easily accessible for borrowers. Experience the freedom to conquer financial challenges with confidence.",
-    link: "financial-instruments/loan-against-property-service",
-  },
+    {
+        img: "/Medical-Equipment-Finance.webp",
+        title: "Medical Equipment Loans",
+        desc: "Expensive medical equipment can make it tough to provide quality healthcare. So, Healthcare providers can lease, finance, or partner to get the what they need. Hence, We at Terkar Capital offer flexible, affordable financing options for medical equipment.",
+        link: "/financial-instruments/medical-equipment-finance",
+      },
   {
     img: "/Lease-Rental-Discounting.webp",
-    title: "Lease Rental Discounting",
-    desc: "Owing to the rise of businesses in the country, there are several options available for loans in the Indian Debt Market. Lease rental discounting is one such loan. So, explore the wide range of loan options available in the Indian Debt Market to fuel your growth with a steady income source.",
-    link: "financial-instruments/lease-rental-discounting",
+    title: "Doctor's Loan",
+    desc: "Like white-collar workers, medical professionals or doctors need adequate loans to stay up-to-date on the most recent healthcare procedures and treatments.Terkar Capital is aware of this and provides doctors with or without collateral loans to assist them in achieving their financial objectives. ",
+    link: "/financial-instruments/professional-loan-for-doctors",
   },
   {
     img: "/machinery-loan.webp",
-    title: "Loan for Machinery",
-    desc: "Getting a machinery loan is an effective way of enhancing the business as it offers a higher level of eligibility, and quick financing. We focus on providing our clients with the most beneficial machinery loan. Get a loan against the machine at ease.",
-    link: "financial-instruments/machinery-loan",
+    title: "Loan for CA/CS",
+    desc: "Chartered accountants can apply for a professional loan based on the duration of their experience in the field. They must present a CoP (certificate of Practice) that was obtained at least two years before the loan application date .",
+    link: "/financial-instruments/professional-loan-for-chartered-accountants",
   },
   {
     img: "/Loan-against-shares.webp",
-    title: "Loan Against Shares",
-    desc: "Unlock your business potential with LAS (Loan Against Shares / Securities). With LAS, you can leverage your bonds, shares, and mutual funds as security to secure debt funding. Empower your business with the right financial backing today",
-    link: "financial-instruments/loan-against-shares",
+    title: "Architect Professionals",
+    desc: "Architect professionals often require funding to keep pace with the ever-evolving industry standards. Whether it’s expanding their architecture firm,",
+    link: "/financial-instruments/loan-for-architect-professional",
   },
-  {
-    img: "/Debt-syndication-1.webp",
-    title: "Debt Syndication",
-    desc: "Unlock the unlimited financial potential for your business with debt syndication funding. Expand your operations, invest in new equipment or fuel growth – whatever your goals, we’ve got you covered. Say hello to endless possibilities for your business with us.",
-    link: "financial-instruments/debt-syndication",
-  },
-  {
-    img: "/Project-funding.webp",
-    title: "Project Funding",
-    desc: "Project funding unlocks the potential of new projects and propels businesses forward. Financial constraints can impede planned schedules, but project funding can help.",
-    link: "financial-instruments/project-funding",
-  },
-  {
-    img: "/funding-for-school.webp",
-    title: "Funding for Schools",
-    desc: "Recognizing the significance of education in shaping individuals’ lives, we believe that schools are the vital foundation for success. Thus, Terkar Capital offers accessible funding solutions tailored specifically for schools, enabling you to contribute to this noble cause.",
-    link: "financial-instruments/funding-for-schools",
-  },
-  {
-    img: "/Foreign-currency.webp",
-    title: "Foreign Currency Funding",
-    desc: "Whether it’s US Dollars, Euros, or other global currencies, we offer flexible loan options tailored to your business needs. Secure your loan by mortgaging your property or utilizing it for export/import business, LC, BG, and more.",
-    link: "financial-instruments/foreign-currency-funding",
-  },
-  {
-    img: "/Sugar-pledge-funding.webp",
-    title: "Sugar Pledge Loan",
-    desc: "Tap into your idle sugar stock and convert it into cash with our expert assistance. We understand the complexities of securing funds against sugar pledges, so we simplify the process for you. So, benefit from minimum interest rates and a hassle-free experience",
-    link: "financial-instruments/sugar-pledge-funding",
-  },
-  {
-    img: "/builder-finance.webp",
-    title: "Builder Finance",
-    desc: "Our expert team understands the creative vision behind every piece of land and works tirelessly to turn your ideas into reality. Trust us to handle all your financial needs ethically and efficiently, so you can focus on building the estate of tomorrow.",
-    link: "financial-instruments/builder-finance",
-  },
+ 
   
   
 ];
@@ -84,28 +49,25 @@ const securefundingfunds = () => {
       </div>
 
       <div>
-        <h1 className="text-[30px] font-bold pt-4  ">
-            Loan for Professionals
+        <h1 className="text-[30px] font-bold pt-4 px-2 ">
+            Loan for Professional
         </h1>
 
         <div className=" py-4 sm:py-4 md:py-8 lg:py-8">
         <p className="text-[#7a7a7a] tracking-[0.7px] px-2 py-4">
-        Unsecured business loans are a popular choice for businesses in India. It addresses short-term financial needs as they advance. However, Lack of machinery, worker payments, pending bills, and buying new stock are just some of the short-term hassles that occur. So, to address these hassles, Terkar Capital facilitates unsecured debt funding products.
-        </p>
-        <p className="text-[#7a7a7a] tracking-[0.7px] px-2 py-4">
-        The unsecured business loans are accessible to businesses of various types and sizes in India. This type of financing often presents a challenge for small and medium-sized businesses that lack adequate financial resources and arrangements.
-        </p>
+        Loan for Professionals is a tailored credit product for professionals such as Medical professionals, Doctors, CAs, ICWA, CS, and Architects. There are some parts of your personal and professional life where you need the assistance of experts. Hence, CA, CS, Doctors, ICWAs, and Architects are among the same set of professionals. These professionals put hard efforts into sharpening their skills and helping us in their areas of expertise.</p>
+      
         </div>
       </div>
 
       <div className="text-center py-10">
         <div className="py-4">
-          <h1 className="text-[25px] font-bold ">Secured Funding Funds</h1>
+          <h1 className="text-[25px] font-bold ">Professional Loans</h1>
           <p className="uppercase font-semibold text-[15px] text-[#7a7a7a]  ">
             We covered in these areas
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3">
           {financeArray.map((data) => (
             <div key={data.title} className="shadow-md p-3">
               <Image

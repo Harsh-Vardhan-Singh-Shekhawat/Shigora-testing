@@ -106,11 +106,11 @@ const financialinstruments = () => {
                     data.id < 12 ? (
                         <div className='shadow-xl p-[10px]'>
                     <Image src={data.img} alt='img' />
-                    <h1 className='text-[18px] font-semibold'>{data.title}</h1>
-                    <Link href={data.link} className='uppercase bg-black text-white border-2 border-black px-3 py-2 rounded-full hover:bg-white hover:text-black  duration-300'> Read More</Link>
+                    <h1 className='text-[18px] p-1 font-semibold'>{data.title}</h1>
+                    <Link href={data.link} className='uppercase bg-black text-white border-2 border-black px-3 py-2 rounded-full hover:bg-white hover:text-black duration-300'>Let's Explore</Link>
                 </div>
                     ) : (
-                        <div className='flex justify-center items-center relative w-full h-[340px] mt-2 bg-white shadow-xl'>
+                        <div className='flex justify-center items-center relative w-full h-[340px] mt-3 bg-white shadow-xl'>
                             <Link href="/financial-instruments" className='absolute flex justify-center items-center font-semibold   '>View All</Link>
                         </div>
                     )

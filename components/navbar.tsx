@@ -34,7 +34,7 @@ const finance = [
   {
     name: "Loan For Professional",
     description: "Your customers’ data will be safe and secure",
-    href: "/financial-instruments/loan-for-profressional",
+    href: "/financial-instruments/loan-for-professionals",
     icon: FingerPrintIcon,
   },
   {

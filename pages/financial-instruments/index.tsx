@@ -316,7 +316,7 @@ const index = () => {
               <div>
                 <Link
                   href={data.link}
-                  className="text-lg font-semibold tracking-wide uppercase bg-black hover:bg-white hover:text-black border-2 border-black duration-300 rounded-full text-white py-2 px-4"
+                  className="text-lg font-semibold tracking-wide uppercase bg-black hover:bg-white hover:text-black border-2 border-black duration rounded-full text-white py-2 px-4"
                 >
                   Read More
                 </Link>

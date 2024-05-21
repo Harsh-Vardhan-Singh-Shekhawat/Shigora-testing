@@ -1,10 +1,11 @@
 import React from 'react'
+import MedicalEquipment from '@/components/financialinstrument/medicalequipment'
 
 const medicalequipmentfinance = () => {
   return (
     <div>
-      Medical Equipment finance
-    </div>
+        <MedicalEquipment />
+    </div>  
   )
 }
 
