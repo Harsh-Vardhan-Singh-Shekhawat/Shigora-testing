@@ -4,8 +4,11 @@ import { BsLinkedin, BsInstagram,BsPinterest,BsFacebook, BsTwitter } from "react
 const footer = () => {
   return (
     <>
-    <div className=" py-4 px-4 md:px-20 md:py-10  bg-[#303030] text-[#c1c1c1]">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 ">
+    <div className="  bg-[#303030] text-[#c1c1c1]">
+      <div className="max-w-7xl m-auto">
+
+      
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  ">
         <div>
           <h1 className="text-[19px] text-white font-bold py-4">
             Terkar Capital
@@ -129,9 +132,10 @@ const footer = () => {
         </div>
       </div>
     </div>
-      <footer className="bg-[#1c1c1c] text-[#c1c1c1] px-20 py-3 flex items-center gap-2">
+    <div className="bg-[#1c1c1c] ">
+      <footer className="text-[#c1c1c1] py-3 flex items-center gap-2 max-w-7xl m-auto">
       <div>
-      Copyright © <span className="text-white">Terkar Capital</span> 2023 |
+      Copyright © <span className="text-white">Terkar Capital</span> 2024 |
       </div>
 
       <div className="text-white flex gap-3">
@@ -141,6 +145,8 @@ const footer = () => {
         <BsPinterest />
       </div>
       </footer>
+      </div>
+      </div>
       </>
   );
 };

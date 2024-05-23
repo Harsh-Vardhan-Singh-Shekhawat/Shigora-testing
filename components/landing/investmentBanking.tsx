@@ -2,7 +2,7 @@ import React from 'react'
 
  const investmentBanking = () => {
   return (
-    <div className='m-2 sm:m-10 md:m-10  '>
+    <div className=''>
     <div className='text-center p-10  max-w-7xl m-auto bg-[#e6e6e6] bg-opacity-25'>
           <h1 className='text-[30px] font-bold p-2'>Investment Banking Firm in India</h1>
           <p className='text-left text-[20px] text-[#7A7A7A] p-2'>

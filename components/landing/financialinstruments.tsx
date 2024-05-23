@@ -97,7 +97,7 @@ const financeArray  = [
 ]
 const financialinstruments = () => {
   return (
-    <div className='text-center p-8 '>
+    <div className='text-center  '>
       <h1 className='text-[30px] font-bold'>Top Financial Instruments We Arrange</h1>
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2'>
             {financeArray.map((data) => (
@@ -110,7 +110,7 @@ const financialinstruments = () => {
                     <Link href={data.link} className='uppercase bg-black text-white border-2 border-black px-3 py-2 rounded-full hover:bg-white hover:text-black duration-300'>Let's Explore</Link>
                 </div>
                     ) : (
-                        <div className='flex justify-center items-center relative w-full h-[340px] mt-3 bg-white shadow-xl'>
+                        <div className='flex justify-center items-center relative w-full h-[360px] mt-3 bg-white shadow-xl'>
                             <Link href="/financial-instruments" className='absolute flex justify-center items-center font-semibold   '>View All</Link>
                         </div>
                     )

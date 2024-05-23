@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const TerkarCapital = () => {
   return (
-    <div className='my- sm:my-4 md:my-20 lg:my-20'>
-      <div className='flex flex-col md:flex-row items-center gap-2'>
+    <div className=' py-20 '>
+      <div className='flex justify-between flex-col md:flex-row items-center gap-2 m-auto'>
         <div className='bg-zinc-900 text-white w-full md:w-1/2'>
         <h1 className="p-4 text-[30px]">
             Why Terkar Capital?
@@ -18,7 +18,7 @@ const TerkarCapital = () => {
         </ul>
         </div>
         <div className='w-full md:w-1/2'>
-        <Image  width={600} height={400} className=' bg-contain' src="/why-terkar-capital.webp" alt="why-terkar-img" />
+        <Image  width={590} height={400} className=' bg-contain' src="/why-terkar-capital.webp" alt="why-terkar-img" />
 
         </div>
       </div>

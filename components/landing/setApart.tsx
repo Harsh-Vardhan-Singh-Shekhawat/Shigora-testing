@@ -37,7 +37,7 @@ const setApartArray = [
 
 const setApart = () => {
   return (
-    <div className='text-center p-2'>
+    <div className='text-center  m-auto'>
       <h1 className='text-[30px] font-bold p-10'>What sets us Apart?</h1>
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 '>
         {setApartArray.map((data) => (
