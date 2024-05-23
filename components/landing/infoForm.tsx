@@ -2,9 +2,9 @@ import React from "react";
 
 const infoForm = () => {
   return (
-    <div className=" backdrop-blur   ">
+    <div className=" backdrop-blur  p-2">
       <div className="bg-[url('/business-partners-handshake-international-business-concept-scaled.webp')] backdrop-blur flex flex-col md:flex-row">
-        <div className="p-8 w-[100%] relative top-40">
+        <div className="p-8 w-[100%] relative top-0 sm:top-5 md:top-40 lg:top-40">
           <h1 className=" text-[30px] font-bold">How can we help you?</h1>
           <p className="font-medium text-[17px]">
             We raise the funds from Domestic / International Fund Houses, Govt.
@@ -14,15 +14,15 @@ const infoForm = () => {
             crores and another one is above Rs. 100 crores.
           </p>
         </div>
-        <div className="shadow-lg  p-4 m-4 w-full">
+        <div className="shadow-lg  p-4 ">
           <h1 className=" text-[30px] font-bold">Leave us you info</h1>
-          <p className="p-2  text-[#7A7A71] ">
+          <p className="  text-[#7A7A71] ">
             Do not hesitate to reach out to Terkar Capital for investment
             banking instruments. We encourage you to contact us before your
             visit in order to get the best service possible.
           </p>
           <div className="">
-            <form className="  rounded p-2 mb-4 w-full">
+            <form className="  rounded p-4 mb-4">
               <div className="flex justify-stretch gap-2 w-full ">
               <div className="mb-4">
                 <input
