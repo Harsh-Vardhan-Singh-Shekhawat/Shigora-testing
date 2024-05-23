@@ -88,11 +88,11 @@ const securefundingfunds = () => {
             Secured Funding
         </h1>
 
-        <div className=" py-4 sm:py-4 md:py-8 lg:py-8">
-        <p className="text-[#7a7a7a] tracking-[0.7px] px-2 py-4">
+        <div className=" py-4">
+        <p className="text-[#7a7a7a] tracking-[0.7px] py-4">
         Unsecured business loans are a popular choice for businesses in India. It addresses short-term financial needs as they advance. However, Lack of machinery, worker payments, pending bills, and buying new stock are just some of the short-term hassles that occur. So, to address these hassles, Terkar Capital facilitates unsecured debt funding products.
         </p>
-        <p className="text-[#7a7a7a] tracking-[0.7px] px-2 py-4">
+        <p className="text-[#7a7a7a] tracking-[0.7px] py-4">
         The unsecured business loans are accessible to businesses of various types and sizes in India. This type of financing often presents a challenge for small and medium-sized businesses that lack adequate financial resources and arrangements.
         </p>
         </div>

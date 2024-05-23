@@ -67,7 +67,7 @@ const securefundingfunds = () => {
             We covered in these areas
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 p-4">
           {financeArray.map((data) => (
             <div key={data.title} className="shadow-md p-3">
               <Image

@@ -117,7 +117,7 @@ const financeArray = [
     img: "/Unsecured-business-loans-1.webp",
     title: "Unsecured Business Loan",
     desc: "Overcome short-term hurdles like machinery purchases, employee payments, pending bills, and stocking up on inventory. With no collateral required, this loan option is perfect for business owners seeking financial flexibility and convenience",
-    link: "financial-instruments/unsecured-business-loans",
+    link: "financial-instruments/unsecured-business-loan",
   },
   {
     img: "/machinery-loan.webp",
@@ -182,7 +182,7 @@ const index = () => {
         </Marquee>
       </div>
 
-      <div className="flex items-center px-40">
+      <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row justify-center gap-2">
         <div className="p-5 w-1/2 text-left">
           <h1 className="text-[25px] font-bold py-4">
             Secure funding for your business through Private Debt Instrument

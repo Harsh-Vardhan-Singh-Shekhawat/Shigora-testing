@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react";
 import OtherFinancialInstrument from "./OtherFinancialInstrument";
 import { WhatSetApart } from "./WhatSetApart";
+import FinanceForm from "./FinanceForm";
 
 const UBLarray = [
   {
@@ -42,7 +43,7 @@ const UBLarray = [
 
 const structuredebt = () => {
   return (
-    <div className="px-2 max-w-7xl m-auto">
+    <div className="p-4 max-w-7xl m-auto">
       <div>
         <Marquee pauseOnHover>
           <p className="text-[#7a7a7a] text-[17px]">
@@ -53,7 +54,7 @@ const structuredebt = () => {
         </Marquee>
       </div>
 
-      <div className="flex items-center ">
+      <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row justify-center gap-2">
         <div className="py-4">
           <h1 className="text-[25px] font-bold py-4">
             Facilitating Stuctured Debt for easy access to business loans
@@ -72,91 +73,7 @@ const structuredebt = () => {
           </button>
         </div>
 
-        <div className="shadow-lg w-1/2  p-4 m-4">
-          <div className="w-full  ">
-            <form className="  rounded px-4 mb-4">
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="name"
-                  type="text"
-                  placeholder="Full Name"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="email"
-                  type="email"
-                  placeholder="Email Address"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="mobile"
-                  type="text"
-                  placeholder="Cell Number"
-                />
-              </div>
-
-              <div className="flex">
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Business Location"
-                  />
-                </div>
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Company Vintage"
-                  />
-                </div>
-              </div>
-
-              <div className="flex ">
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Amount Looking FOr"
-                  />
-                </div>
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Company Turnover"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <textarea
-                  rows={5}
-                  placeholder="Soft Comment on Company & Director CIBIL"
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                ></textarea>
-              </div>
-
-              <div className="">
-                <button
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-5  focus:outline-none focus:shadow-outline"
-                  type="submit"
-                >
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
+        <FinanceForm />
       </div>
 
       <div className="text-[#7a7a7a] ">
@@ -169,10 +86,10 @@ const structuredebt = () => {
         </p>
       </div>
 
-      <div className="p-2 sm:p-4 md:p-10 lg:p-10">
-        <div className="flex gap-2">
+      <div className="py-4">
+        <div className="flex flex-col sm:flex-col mf:flex-row lg:flex-row gap-2">
           <div className="bg-black text-white p-10">
-            <h3 className="text-[18px] font-bold">Bill Discounting</h3>
+            <h3 className="text-[18px] font-bold">Stuctured Debt Finance </h3>
             <h1 className="text-[33px] font-bold">Key Features</h1>
             <ul className="p-5 list-disc tracking-[0.7px]">
               <li>Avail short-term loan </li>

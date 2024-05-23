@@ -1,6 +1,13 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-import { Tabs, TabList, TabPanels, Tab, TabPanel, TabIndicator } from "@chakra-ui/react";
+import {
+  Tabs,
+  TabList,
+  TabPanels,
+  Tab,
+  TabPanel,
+  TabIndicator,
+} from "@chakra-ui/react";
 
 import OtherFinancialInstrument from "./OtherFinancialInstrument";
 import { WhatSetApart } from "./WhatSetApart";
@@ -34,9 +41,8 @@ const UBLarray = [
 ];
 
 const projectReportFunding = () => {
-
   return (
-    <div className="px-2">
+    <div className="p-4 max-w-7xl m-auto">
       <div>
         <Marquee pauseOnHover>
           <p className="text-[#7a7a7a] text-[17px]">
@@ -47,38 +53,57 @@ const projectReportFunding = () => {
         </Marquee>
       </div>
 
-      <div className=" px-40">
+      <div className="">
         <div>
-        <h1 className="text-[25px] font-bold m-auto  p-2">Project Report for Funding</h1>
+          <h1 className="text-[25px] font-bold m-auto  py-4">
+            Project Report for Funding
+          </h1>
         </div>
-        <p className="p-2 py- text-[17px] text-[#7a7a7a] tracking-[0.7px]">
-        Benjamin Franklin very well said, Fail to plan is planning to fail. So, whenever you’re planning to expand through your existing setup or through your new unit, or through vertical or horizontal expansion, you must be ready with the projections and the plan. There are many questions you need to clarify.
+        <p className="py-4 text-[17px] text-[#7a7a7a] tracking-[0.7px]">
+          Benjamin Franklin very well said, Fail to plan is planning to fail.
+          So, whenever you’re planning to expand through your existing setup or
+          through your new unit, or through vertical or horizontal expansion,
+          you must be ready with the projections and the plan. There are many
+          questions you need to clarify.
         </p>
       </div>
 
-      <div className=" px-40">
+      <div className="">
         <div>
-        <h1 className="text-[25px] font-bold m-auto  p-2">Key Considerations for Project Evaluation</h1>
+          <h1 className="text-[25px] font-bold m-auto  py-4">
+            Key Considerations for Project Evaluation
+          </h1>
         </div>
-        <p className="p-2 py- text-[17px] text-[#7a7a7a] tracking-[0.7px]">
-        For example, How much time you may be required to set up the unit? How much time is required to make the unit profitable? What is the amount of funds required? What is the discounted value of the cash throughout the project? And many more. We understand how many projections you need to consider and what aspects you need to take care of before starting the projects.
-
-We at Terkar Capital, understand the whole project. Thus, we prepare the project report with the best possible outcomes.
+        <p className="py-4 text-[17px] text-[#7a7a7a] tracking-[0.7px]">
+          For example, How much time you may be required to set up the unit? How
+          much time is required to make the unit profitable? What is the amount
+          of funds required? What is the discounted value of the cash throughout
+          the project? And many more. We understand how many projections you
+          need to consider and what aspects you need to take care of before
+          starting the projects. We at Terkar Capital, understand the whole
+          project. Thus, we prepare the project report with the best possible
+          outcomes.
         </p>
       </div>
 
-      <div className=" px-40">
+      <div className="">
         <div>
-        <h1 className="text-[25px] font-bold m-auto  p-2">Avail of Project Report for Funding with Terkar Capital</h1>
+          <h1 className="text-[25px] font-bold m-auto  py-4">
+            Avail of Project Report for Funding with Terkar Capital
+          </h1>
         </div>
-        <p className="p-2 py- text-[17px] text-[#7a7a7a] tracking-[0.7px]">
-        We at Terkar Capital provide a comprehensive analysis of your project, covering all its aspects from conception to execution. It goes beyond simply outlining tasks and timelines, acting as a bridge between your vision and potential external influences. By utilizing financial instruments, the report meticulously analyzes potential outcomes, presenting not just one ideal scenario, but a range of possibilities.
-
-This detailed analysis empowers you to make informed decisions by equipping you with a clear understanding of the various paths your project can take.
+        <p className="py-4 py- text-[17px] text-[#7a7a7a] tracking-[0.7px]">
+          We at Terkar Capital provide a comprehensive analysis of your project,
+          covering all its aspects from conception to execution. It goes beyond
+          simply outlining tasks and timelines, acting as a bridge between your
+          vision and potential external influences. By utilizing financial
+          instruments, the report meticulously analyzes potential outcomes,
+          presenting not just one ideal scenario, but a range of possibilities.
+          This detailed analysis empowers you to make informed decisions by
+          equipping you with a clear understanding of the various paths your
+          project can take.
         </p>
       </div>
-
-     
 
       {/* <div className="px-40 w-full">
         <div className="flex gap-2 ">
@@ -99,15 +124,10 @@ This detailed analysis empowers you to make informed decisions by equipping you 
       </div> */}
 
       <OtherFinancialInstrument />
-
-
-      
     </div>
   );
 };
 
 export default projectReportFunding;
 
-const projectImage  = () => {
-  
-}
+const projectImage = () => {};

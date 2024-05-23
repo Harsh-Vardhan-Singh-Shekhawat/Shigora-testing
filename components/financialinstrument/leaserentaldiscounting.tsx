@@ -10,6 +10,8 @@ import {
   Box,
 } from "@chakra-ui/react";
 import OtherFinancialInstrument from "./OtherFinancialInstrument";
+import FinanceForm from "./FinanceForm";
+import { WhatSetApart } from "./WhatSetApart";
 
 const UBLarray = [
   {
@@ -41,7 +43,7 @@ const UBLarray = [
 
 const leaserentaldiscounting = () => {
   return (
-    <div className="px-2">
+    <div className="p-4 max-w-7xl m-auto">
       <div>
         <Marquee pauseOnHover>
           <p className="text-[#7a7a7a] text-[17px]">
@@ -52,7 +54,7 @@ const leaserentaldiscounting = () => {
         </Marquee>
       </div>
 
-      <div className="flex items-center px-40">
+      <div className="flex items-center flex-col sm:flex-col md:flex-row lg:flex-row">
         <div className="p-5">
           <h1 className="text-[25px] font-bold py-4">
             Take your business to the next level with Unsecured Business Loans
@@ -71,99 +73,15 @@ const leaserentaldiscounting = () => {
           </button>
         </div>
 
-        <div className="shadow-lg w-1/2  p-4 m-4">
-          <div className="w-full  ">
-            <form className="  rounded px-4 mb-4">
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="name"
-                  type="text"
-                  placeholder="Full Name"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="email"
-                  type="email"
-                  placeholder="Email Address"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="mobile"
-                  type="text"
-                  placeholder="Cell Number"
-                />
-              </div>
-
-              <div className="flex">
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Business Location"
-                  />
-                </div>
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Company Vintage"
-                  />
-                </div>
-              </div>
-
-              <div className="flex ">
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Amount Looking FOr"
-                  />
-                </div>
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Company Turnover"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <textarea
-                  rows={5}
-                  placeholder="Soft Comment on Company & Director CIBIL"
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                ></textarea>
-              </div>
-
-              <div className="">
-                <button
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-5  focus:outline-none focus:shadow-outline"
-                  type="submit"
-                >
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
+        <FinanceForm />
       </div>
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
+      <div className="text-[#7a7a7a]">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Lease Rental Discounting (LRD Loan)
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           The Lease Rental Discounting (LRD) facility is a term loan. The
           borrower gets this loan based on their income from the rented
           property. A major aspect that affects the LRD loan is the availability
@@ -171,7 +89,7 @@ const leaserentaldiscounting = () => {
           receiving rent. So, there are several other factors that matter when
           obtaining a lease rental discounting facility.
         </p>
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           Owing to the rise of businesses in the country, there are several
           options available for funding in the Indian Debt Market. Lease rental
           discounting (LRD facility) is one such loan. Despite the fact that
@@ -182,10 +100,10 @@ const leaserentaldiscounting = () => {
         </p>
       </div>
 
-      <div className="px-40">
-        <div className="flex gap-2">
+      <div className="py-4">
+        <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row gap-2">
           <div className="bg-black text-white p-10">
-            <h3 className="text-[18px] font-bold">Bill Discounting</h3>
+            <h3 className="text-[18px] font-bold">Lease Rental Discounting</h3>
             <h1 className="text-[33px] font-bold">Key Features</h1>
             <ul className="p-5 list-disc tracking-[0.7px]">
               <li>Avail short-term loan </li>
@@ -196,57 +114,12 @@ const leaserentaldiscounting = () => {
             </ul>
           </div>
 
-          <div>
-            <h1 className="text-[25px] font-bold">What set us apart?</h1>
-            <div className="">
-              {/* {UBLarray.map((data, index) => ( */}
-              <div>
-                <Tabs orientation="vertical" isFitted variant="enclosed">
-                  <TabList
-                    mb="1em"
-                    className="text-black font-bold text-[20px]"
-                  >
-                    <Tab>1. Fast Turnaround Time</Tab>
-                    <Tab>2. Confidentiality</Tab>
-                    <Tab>3. Competitive ROI</Tab>
-                    <Tab>4. Hassle-free Processing</Tab>
-                    <Tab>5. High Level of Integrity</Tab>
-                  </TabList>
-                  <TabPanels>
-                    <TabPanel className="">
-                      We cordially track the deadlines and make our quality
-                      tangible, while executing finance projects well ahead of
-                      time.
-                    </TabPanel>
-                    <TabPanel>
-                      We comply with the highest professional confidentiality
-                      standards. All client information is discussed in strict
-                      confidentiality.
-                    </TabPanel>
-                    <TabPanel>
-                      We find you the right lenders with the similar terms and
-                      the lowest rate of interest.
-                    </TabPanel>
-                    <TabPanel>
-                      We create a stable ownership structure for financiers by
-                      establishing a secure transaction process.
-                    </TabPanel>
-                    <TabPanel>
-                      We are building our reputation through reliability,
-                      integrity, and honesty. We connect to our clients on
-                      personal grounds that include transparency and liability.
-                    </TabPanel>
-                  </TabPanels>
-                </Tabs>
-              </div>
-              {/* ))} */}
-            </div>
-          </div>
+          <WhatSetApart />
         </div>
       </div>
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
+      <div className="text-[#7a7a7a]">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Types of LAP Facility
         </h1>
 
@@ -258,7 +131,7 @@ const leaserentaldiscounting = () => {
               <Tab>c. Loan Amount </Tab>
               <Tab>d. Repayment of the Loan </Tab>
             </TabList>
-            <TabPanels>
+            <TabPanels className="border-2 p-4 text-[17px]">
               <TabPanel className="">
                 <ul className="list-disc">
                   <li>
@@ -327,26 +200,24 @@ const leaserentaldiscounting = () => {
       </div>
 
       <OtherFinancialInstrument />
-      <div className="text-[#7a7a7a] px-40">
+      <div className="text-[#7a7a7a] ">
         <h1 className="text-[25px] p-4 text-black  font-bold">
           LRD Loan Eligibility Criteria
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           The eligibility criteria for the loan differ from organization to
           organization. However, there are certain factors as well that will
           affect the eligibility criteria for the loan. A few of the general
           parameters are listed as follows:
         </p>
-        <ul className="p-5 text-[17px] tracking-[0.7px] list-disc">
+        <ul className="py-4 px-7 text-[17px] tracking-[0.7px] list-decimal">
           <li>The income of the applicant should be stable.</li>
           <li>Age criteria:
-            <ul className="list-decimal p-4">
-                <li>For salaried applicants: 21 to 60
-</li>
-                <li>For self-employed applicants: 21 to 65
-</li>
-            </ul>
+            <ul className="list-disc p-4">
+                <li>For salaried applicants: 21 to 60</li>
+                <li>For self-employed applicants: 21 to 65</li>
+            </ul> 
           </li>
           <li>
             Other liabilities that come along or that might occur in the case of
@@ -355,13 +226,13 @@ const leaserentaldiscounting = () => {
         </ul>
       </div>
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
+      <div className="text-[#7a7a7a] ">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
         Lease Rental Discounting Facilitator
 
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
         The financial institutions that participate in providing such are plenty. However, what makes Terkar Capital stand out is the support and hassle-free service that we have rendered over the years. We have successfully sanctioned LRD loans for the fitted candidates. Thus, supported the candidates throughout the process.
 
 

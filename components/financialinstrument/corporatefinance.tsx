@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react";
 import OtherFinancialInstrument from "@/components/financialinstrument/OtherFinancialInstrument";
 import { WhatSetApart } from "./WhatSetApart";
+import FinanceForm from "./FinanceForm";
 
 const corporateArray = [
   {
@@ -42,7 +43,7 @@ const corporateArray = [
 
 const corporatefinance = () => {
   return (
-    <div className="px-2">
+    <div className="p-2 max-w-7xl m-auto">
       <div>
         <Marquee pauseOnHover>
           <p className="text-[#7a7a7a] text-[17px]">
@@ -53,8 +54,8 @@ const corporatefinance = () => {
         </Marquee>
       </div>
 
-      <div className="flex items-center px-40">
-        <div className="p-5 w-1/2">
+      <div className="flex justify-between items-center flex-col sm:flex-col md:flex-row lg:flex-row">
+        <div className="py-4 ">
           <h1 className="text-[25px] font-bold py-4">
             Grow, optimize, & maximize your business
           </h1>
@@ -72,113 +73,29 @@ const corporatefinance = () => {
           </button>
         </div>
 
-        <div className="shadow-lg w-1/2  p-4 m-4">
-          <div className="w-full  ">
-            <form className="  rounded px-4 mb-4">
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="name"
-                  type="text"
-                  placeholder="Full Name"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="email"
-                  type="email"
-                  placeholder="Email Address"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="mobile"
-                  type="text"
-                  placeholder="Cell Number"
-                />
-              </div>
-
-              <div className="flex">
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Business Location"
-                  />
-                </div>
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Company Vintage"
-                  />
-                </div>
-              </div>
-
-              <div className="flex ">
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Amount Looking FOr"
-                  />
-                </div>
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Company Turnover"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <textarea
-                  rows={5}
-                  placeholder="Soft Comment on Company & Director CIBIL"
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                ></textarea>
-              </div>
-
-              <div className="">
-                <button
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-5  focus:outline-none focus:shadow-outline"
-                  type="submit"
-                >
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
+       <FinanceForm />
       </div>
 
-      <div className="text-[#7a7a7a] px-40 py-10">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
+      <div className="text-[#7a7a7a] ">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
         Corporate Finance in India
 
         </h1>
 
-        <p className="p-2 px-4 text-[17px] tracking-[0.7px]">
+        <p className="py-2 text-[17px] tracking-[0.7px]">
         Corporate finance encompasses the crucial aspects and the steps management takes to increase the value of a company. It is considered a liaison between the capital market and the institution. Thus, it deals with the capital formation and development of the corporation.
 
 
         </p>
-        <p className="p-2 px-4 text-[17px] tracking-[0.7px]">
+        <p className="py-2 text-[17px] tracking-[0.7px]">
         In practical terms, Corporate finance includes the company’s decisions about its financial results, tools, and analysis used to prioritize and allocate financial resources. So, corporate financing ultimately aims to increase the value of the business by planning & implementing resources and balancing risk & profitability.
 
 
         </p>
       </div>
 
-      <div className="px-40">
-        <div className="flex gap-2">
+      <div className="py-4">
+        <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row gap-2">
           <div className="bg-black text-white p-10">
             <h3 className="text-[18px] font-bold">Bill Discounting</h3>
             <h1 className="text-[33px] font-bold">Key Features</h1>
@@ -244,31 +161,30 @@ const corporatefinance = () => {
         </div>
       </div>
 
-      <OtherFinancialInstrument />
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-2 text-black  font-bold">
+      <div className="text-[#7a7a7a] py-4">
+        <h1 className="text-[25px]  text-black py-4 font-bold">
           Features of Private Debt Funding:
         </h1>
 
         <ol className="list-number">
           {corporateArray.map((data) => (
             <li>
-              <h3 className="text-black font-bold text-[20px] p-2">
+              <h3 className="text-black font-bold text-[20px] py-2">
                 {data.title}
               </h3>
-              <p className="text-[#7a7a7a] tracking-[0.7px] p-2">{data.desc}</p>
+              <p className="text-[#7a7a7a] tracking-[0.7px] py-2">{data.desc}</p>
             </li>
           ))}
         </ol>
       </div>
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
+      <div className="text-[#7a7a7a]">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Private Equity Firm
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           We at Terkar Capital work with many national and international debt
           and private equity players. Our deep understanding of client’s needs
           enables us to tailor financing solutions specific to their
@@ -280,9 +196,12 @@ const corporatefinance = () => {
         </p>
       </div>
 
-      <div className="py-10 px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">Corporate Finance Company in India</h1>
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+      <OtherFinancialInstrument />
+
+
+      <div className="py-10 ">
+        <h1 className="text-[25px] py-4 text-black  font-bold">Corporate Finance Company in India</h1>
+        <p className="py-4 text-[17px] tracking-[0.7px]">
         Get a comprehensive understanding of Corporate Finance, Including funding, Capital formation, Resource Planning, and Value maximization. Apply for Corporate Funding with Terkar Capital, and learn how to balance risk and profitability to increase the value of your business.
 
 

@@ -1,7 +1,8 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
-
+import { WhatSetApart } from "./WhatSetApart";
+import FinanceForm  from "./FinanceForm";
 const UBLarray = [
   {
     id: 0,
@@ -32,7 +33,7 @@ const UBLarray = [
 
 const billdiscounting = () => {
   return (
-    <div className="px-2">
+    <div className="p-4 max-w-7xl m-auto">
       <div>
         <Marquee pauseOnHover>
           <p className="text-[#7a7a7a] text-[17px]">
@@ -43,8 +44,8 @@ const billdiscounting = () => {
         </Marquee>
       </div>
 
-      <div className="flex items-center px-40">
-        <div className="p-5">
+      <div className="flex items-center flex-col sm:flex-col md:flex-row lg:flex-row">
+        <div className="py-4">
           <h1 className="text-[25px] font-bold py-4">
             Take your business to the next level with Unsecured Business Loans
           </h1>
@@ -62,99 +63,15 @@ const billdiscounting = () => {
           </button>
         </div>
 
-        <div className="shadow-lg w-1/2  p-4 m-4">
-          <div className="w-full  ">
-            <form className="  rounded px-4 mb-4">
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="name"
-                  type="text"
-                  placeholder="Full Name"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="email"
-                  type="email"
-                  placeholder="Email Address"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="mobile"
-                  type="text"
-                  placeholder="Cell Number"
-                />
-              </div>
-
-              <div className="flex">
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Business Location"
-                  />
-                </div>
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Company Vintage"
-                  />
-                </div>
-              </div>
-
-              <div className="flex ">
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Amount Looking FOr"
-                  />
-                </div>
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Company Turnover"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <textarea
-                  rows={5}
-                  placeholder="Soft Comment on Company & Director CIBIL"
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                ></textarea>
-              </div>
-
-              <div className="">
-                <button
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-5  focus:outline-none focus:shadow-outline"
-                  type="submit"
-                >
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
+       <FinanceForm />
       </div>
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
+      <div className="text-[#7a7a7a] ">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Bill Discounting Facility
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           Bill discounting, also known as invoice discounting, is a business
           practice in which a seller receives payment immediately after issuing
           an invoice to their customer, provided they meet certain requirements.
@@ -165,8 +82,8 @@ const billdiscounting = () => {
         </p>
       </div>
 
-      <div className="px-40">
-        <div className="flex gap-2">
+      <div className="py-4">
+        <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row gap-2">
           <div className="bg-black text-white p-10">
             <h3 className="text-[18px] font-bold">Bill Discounting</h3>
             <h1 className="text-[33px] font-bold">Key Features</h1>
@@ -179,56 +96,11 @@ const billdiscounting = () => {
             </ul>
           </div>
 
-          <div>
-            <h1 className="text-[25px] font-bold">What set us apart?</h1>
-            <div className="">
-              {/* {UBLarray.map((data, index) => ( */}
-              <div>
-                <Tabs orientation="vertical" isFitted variant="enclosed">
-                  <TabList
-                    mb="1em"
-                    className="text-black font-bold text-[20px]"
-                  >
-                    <Tab>1. Fast Turnaround Time</Tab>
-                    <Tab>2. Confidentiality</Tab>
-                    <Tab>3. Competitive ROI</Tab>
-                    <Tab>4. Hassle-free Processing</Tab>
-                    <Tab>5. High Level of Integrity</Tab>
-                  </TabList>
-                  <TabPanels>
-                    <TabPanel className="">
-                      We cordially track the deadlines and make our quality
-                      tangible, while executing finance projects well ahead of
-                      time.
-                    </TabPanel>
-                    <TabPanel>
-                      We comply with the highest professional confidentiality
-                      standards. All client information is discussed in strict
-                      confidentiality.
-                    </TabPanel>
-                    <TabPanel>
-                      We find you the right lenders with the similar terms and
-                      the lowest rate of interest.
-                    </TabPanel>
-                    <TabPanel>
-                      We create a stable ownership structure for financiers by
-                      establishing a secure transaction process.
-                    </TabPanel>
-                    <TabPanel>
-                      We are building our reputation through reliability,
-                      integrity, and honesty. We connect to our clients on
-                      personal grounds that include transparency and liability.
-                    </TabPanel>
-                  </TabPanels>
-                </Tabs>
-              </div>
-              {/* ))} */}
-            </div>
-          </div>
+          <WhatSetApart />
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <Tabs orientation="vertical" isFitted variant="enclosed">
           <TabList mb="1em" className="text-black font-bold text-[20px]">
             <Tab>1. Speeding up the Working Capital cycle</Tab>
@@ -260,14 +132,14 @@ const billdiscounting = () => {
             </TabPanel>
           </TabPanels>
         </Tabs>
-      </div>
+      </div> */}
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
+      <div className="text-[#7a7a7a]">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Bill Discounting companies for MSMEs
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           Indian financial institutions are still not in a better position to
           understand the needs of MSMEs and provide them with adequate funding.
           Approximately 75% of the MSMEs do not possess any collateral to offer
@@ -278,12 +150,12 @@ const billdiscounting = () => {
         </p>
       </div>
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
+      <div className="text-[#7a7a7a]">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Bill Discounting Rate of Interest
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           Currently, in the Indian debt market, unsecured funding starts with
           16% PA, that too in the term loan format. When you consider the option
           of Bill Discounting, this comes under working capital financial
@@ -294,10 +166,10 @@ const billdiscounting = () => {
         </p>
       </div>
 
-      <div className="text-[#7a7a7a] p-4">
+      <div className="text-[#7a7a7a] py-4">
         <h1 className="text-[25px]  text-black  font-bold">Documentation</h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           The whole process of the documentation is very simple and time-saving.
           Initially, when you approach us we get all the major documentation
           done. Once the limit is approved you only have to submit the invoice
@@ -310,7 +182,7 @@ const billdiscounting = () => {
           Bill Discounting Facility Provider
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           Terkar Capital is one of the leading bill discounting companies in
           India. We help businesses reduce risk, access better financial
           instruments, and ultimately lower costs and improve their bottom line.

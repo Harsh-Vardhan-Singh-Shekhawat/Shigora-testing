@@ -10,8 +10,9 @@ import {
   Box,
 } from "@chakra-ui/react";
 import OtherFinancialInstrument from "@/components/financialinstrument/OtherFinancialInstrument";
-import TabFeature from '@/components/Tab'
+import TabFeature from "@/components/Tab";
 import { WhatSetApart } from "./WhatSetApart";
+import FinanceForm from "./FinanceForm";
 const privateDebtArray = [
   {
     id: 1,
@@ -52,7 +53,7 @@ const privateDebtArray = [
 
 const privateEquity = () => {
   return (
-    <div className="px-2">
+    <div className="p-4 max-w-7xl m-auto">
       <div>
         <Marquee pauseOnHover>
           <p className="text-[#7a7a7a] text-[17px]">
@@ -63,7 +64,7 @@ const privateEquity = () => {
         </Marquee>
       </div>
 
-      <div className="flex items-center px-40">
+      <div className="flex items-center flex-col sm:flex-col md:flex-row lg:flex-row">
         <div className="p-5">
           <h1 className="text-[24px] font-bold py-2">
             Secure funding for your business through Private Debt Instrument
@@ -82,97 +83,35 @@ const privateEquity = () => {
           </button>
         </div>
 
-        <div className="shadow-lg w-1/2  p-4 m-4">
-          <div className="w-full  ">
-            <form className="  rounded px-4 mb-4">
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="name"
-                  type="text"
-                  placeholder="Full Name"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="email"
-                  type="email"
-                  placeholder="Email Address"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="mobile"
-                  type="text"
-                  placeholder="Cell Number"
-                />
-              </div>
-
-              <div className="flex">
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Business Location"
-                  />
-                </div>
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Company Vintage"
-                  />
-                </div>
-              </div>
-
-              <div className="flex ">
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Amount Looking FOr"
-                  />
-                </div>
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Company Turnover"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <textarea
-                  rows={5}
-                  placeholder="Soft Comment on Company & Director CIBIL"
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                ></textarea>
-              </div>
-
-              <div className="">
-                <button
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-5  focus:outline-none focus:shadow-outline"
-                  type="submit"
-                >
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
+        <FinanceForm />
       </div>
 
-      <div className="px-40">
-        <div className="flex gap-2">
+      <div className="text-[#7a7a7a]">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
+          Private Equity Funds
+        </h1>
+
+        <p className="py-4 text-[17px] tracking-[0.7px]">
+          Private Equity, Venture Capital, and debt funding are all the subject
+          of curiosity. But very short road maps are available to reach these
+          destinations. Big ideas require Big Execution and Big Execution
+          requires Big Money. That’s why we specialize in facilitating private
+          equity funds to transform your ideas into tangible realities.
+        </p>
+
+        <p className="py-4 text-[17px] tracking-[0.7px]">
+          In the Indian economy, there are two major ways of raising capital for
+          the business. One is through debt and another is through private
+          equity. Both the markets  ( Private Equity and Debt markets) have
+          different modes of operations, expectations, and criteria to work
+          upon.
+        </p>
+      </div>
+
+      <div className="py-4">
+        <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row gap-2">
           <div className="bg-black text-white p-10">
-            <h3 className="text-[18px] font-bold">Bill Discounting</h3>
+            <h3 className="text-[18px] font-bold">Private Equity</h3>
             <h1 className="text-[33px] font-bold">Key Features</h1>
             <ul className="p-5 list-disc tracking-[0.7px]">
               <li>Avail short-term loan </li>
@@ -187,41 +126,47 @@ const privateEquity = () => {
         </div>
       </div>
 
-      <OtherFinancialInstrument />
-
       {/* <TabFeature /> */}
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-2 text-black  font-bold">
+      <div className="text-[#7a7a7a]">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Features of Private Debt Funding:
         </h1>
 
         <ol className="list-number">
           {privateDebtArray.map((data) => (
             <li>
-              <h3 className="text-black font-bold text-[20px] p-2">
+              <h3 className="text-black font-bold text-[20px] py-4">
                 {data.title}
               </h3>
-              <p className="text-[#7a7a7a] tracking-[0.7px] p-2">{data.desc}</p>
+              <p className="text-[#7a7a7a] tracking-[0.7px] py-4">
+                {data.desc}
+              </p>
             </li>
           ))}
         </ol>
       </div>
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
-        Private Equity Firm
-
+      <div className="text-[#7a7a7a]">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
+          Private Equity Firm
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
-        We at Terkar Capital work with many national and international debt and private equity players. Our deep understanding of client’s needs enables us to tailor financing solutions specific to their requirements. Drawing upon our expertise, we diligently explore and secure financing options from both the Indian and international markets. As one of India’s premier private equity firms, we pride ourselves on delivering exceptional end-to-end execution throughout the fundraising process.
-
-
+        <p className="py-4 text-[17px] tracking-[0.7px]">
+          We at Terkar Capital work with many national and international debt
+          and private equity players. Our deep understanding of client’s needs
+          enables us to tailor financing solutions specific to their
+          requirements. Drawing upon our expertise, we diligently explore and
+          secure financing options from both the Indian and international
+          markets. As one of India’s premier private equity firms, we pride
+          ourselves on delivering exceptional end-to-end execution throughout
+          the fundraising process.
         </p>
       </div>
 
-      <div className="py-10 px-40">
+      <OtherFinancialInstrument />
+
+      <div className="py-10">
         <h1 className="text-[25px] p-4 text-black  font-bold">FAQs</h1>
 
         <div>
@@ -230,13 +175,17 @@ const privateEquity = () => {
               <h2 className="font-bold text-lg border-y-[1px] py-3">
                 <AccordionButton>
                   <Box as="span" flex="1" textAlign="left">
-                  The funds will be in dollars or rupees?
+                    The funds will be in dollars or rupees?
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4} className="p-5 tracking-[0.7px]">
-              The debt fund can be arranged in dollars (any other foreign currency) or in rupees, as per the convenience of the borrower. However, it is suggested that if the borrower is not exposed to the foreign currency (either through income or expenses), then funding should be taken in rupees only.
+                The debt fund can be arranged in dollars (any other foreign
+                currency) or in rupees, as per the convenience of the borrower.
+                However, it is suggested that if the borrower is not exposed to
+                the foreign currency (either through income or expenses), then
+                funding should be taken in rupees only.
               </AccordionPanel>
             </AccordionItem>
 
@@ -244,13 +193,15 @@ const privateEquity = () => {
               <h2 className="font-bold text-lg border-y-[1px] py-3">
                 <AccordionButton>
                   <Box as="span" flex="1" textAlign="left">
-                  What will be the rate of interest?
+                    What will be the rate of interest?
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4} className="p-5 tracking-[0.7px]">
-              The rate of interest will be in sync with the Indian economy, inflation rate, and MCLR. However, funding currency will be a determining factor.
+                The rate of interest will be in sync with the Indian economy,
+                inflation rate, and MCLR. However, funding currency will be a
+                determining factor.
               </AccordionPanel>
             </AccordionItem>
 
@@ -258,13 +209,15 @@ const privateEquity = () => {
               <h2 className="font-bold text-lg border-y-[1px] py-3">
                 <AccordionButton>
                   <Box as="span" flex="1" textAlign="left">
-                  Is there a geo limit to private debt?
+                    Is there a geo limit to private debt?
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4} className="p-5 tracking-[0.7px]">
-              As long as the project and business are good, there is no geo limit to it. The private debt funding can be arranged in Pune, Mumbai, Maharashtra, and any part of India.
+                As long as the project and business are good, there is no geo
+                limit to it. The private debt funding can be arranged in Pune,
+                Mumbai, Maharashtra, and any part of India.
               </AccordionPanel>
             </AccordionItem>
 
@@ -272,60 +225,63 @@ const privateEquity = () => {
               <h2 className="font-bold text-lg border-y-[1px] py-3">
                 <AccordionButton>
                   <Box as="span" flex="1" textAlign="left">
-                  What will be the turnaround time to process?
+                    What will be the turnaround time to process?
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4} className="p-5 tracking-[0.7px]">
-              As the private debt funds follow the flat operational structure, there is no time taking process for the sanctions. It works way faster than normal banking channel operations.
+                As the private debt funds follow the flat operational structure,
+                there is no time taking process for the sanctions. It works way
+                faster than normal banking channel operations.
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem>
               <h2 className="font-bold text-lg border-y-[1px] py-3">
                 <AccordionButton>
                   <Box as="span" flex="1" textAlign="left">
-                  Are the lenders new to the Indian Market?
+                    Are the lenders new to the Indian Market?
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4} className="p-5 tracking-[0.7px]">
-              The lenders have operated in the Indian Market since 1997. The Indian market and the Indian economy are not new to them.
+                The lenders have operated in the Indian Market since 1997. The
+                Indian market and the Indian economy are not new to them.
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem>
               <h2 className="font-bold text-lg border-y-[1px] py-3">
                 <AccordionButton>
                   <Box as="span" flex="1" textAlign="left">
-                  Is collateral required?
+                    Is collateral required?
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4} className="p-5 tracking-[0.7px]">
-              Yes. As this funding is in debt format, collateral is required. However, there will be total flexibility on the collateral part which can be mutually decided.
+                Yes. As this funding is in debt format, collateral is required.
+                However, there will be total flexibility on the collateral part
+                which can be mutually decided.
               </AccordionPanel>
             </AccordionItem>
             <AccordionItem>
               <h2 className="font-bold text-lg border-y-[1px] py-3">
                 <AccordionButton>
                   <Box as="span" flex="1" textAlign="left">
-                  Are the Private Debt players following the Legal Framework?
+                    Are the Private Debt players following the Legal Framework?
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4} className="p-5 tracking-[0.7px]">
-              Yes. Very much. Private debt players follow all the rules and guidelines laid down by RBI and the Government of India.
-
-
+                Yes. Very much. Private debt players follow all the rules and
+                guidelines laid down by RBI and the Government of India.
               </AccordionPanel>
             </AccordionItem>
           </Accordion>
         </div>
       </div>
-      
     </div>
   );
 };

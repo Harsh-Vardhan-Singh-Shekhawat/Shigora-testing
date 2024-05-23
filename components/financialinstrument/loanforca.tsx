@@ -72,7 +72,7 @@ const Professionalloanforca = () => {
       </div>
 
       <div className="py-4 sm:py-4 md:py-10 lg:py-10">
-        <div className="flex flex-col sm:felex-col md:flex-row lg:flex-row justify-center gap-2">
+        <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row justify-center gap-2">
           <div className="bg-black text-white p-10">
             <h3 className="text-[18px] font-bold">Bill Discounting</h3>
             <h1 className="text-[33px] font-bold">Key Features</h1>

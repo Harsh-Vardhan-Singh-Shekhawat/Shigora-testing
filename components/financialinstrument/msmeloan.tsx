@@ -9,6 +9,7 @@ import {
   AccordionIcon,
   Box,
 } from "@chakra-ui/react";
+import FinanceForm from '@/components/financialinstrument/FinanceForm'
 import OtherFinancialInstrument from "./OtherFinancialInstrument";
 import { WhatSetApart } from "./WhatSetApart";
 
@@ -42,7 +43,7 @@ const UBLarray = [
 
 const msmeloan = () => {
   return (
-    <div className="px-2">
+    <div className="p-4 max-w-7xl m-auto">
       <div>
         <Marquee pauseOnHover>
           <p className="text-[#7a7a7a] text-[17px]">
@@ -53,8 +54,8 @@ const msmeloan = () => {
         </Marquee>
       </div>
 
-      <div className="flex items-center px-40">
-        <div className="p-5">
+      <div className="flex items-center flex-col sm:flex-col md:flex-row lg:flex-row">
+        <div className="py-4">
           <h1 className="text-[25px] font-bold py-4">
             Facilitating MSMEs with easy access to business loans
           </h1>
@@ -72,7 +73,9 @@ const msmeloan = () => {
           </button>
         </div>
 
-        <div className="shadow-lg w-1/2  p-4 m-4">
+        <FinanceForm />
+
+        {/* <div className="shadow-lg md:w-1/2 lg:w-1/2  p-4 m-4">
           <div className="w-full  ">
             <form className="  rounded px-4 mb-4">
               <div className="mb-4">
@@ -156,15 +159,15 @@ const msmeloan = () => {
               </div>
             </form>
           </div>
-        </div>
+        </div> */}
       </div>
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
+      <div className="text-[#7a7a7a]">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Business Loans for MSMEs
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           The GOI enacted the MSMED Act 2006. As the name states, the definition
           of MSMEs consists of Micro, small, and medium-scale enterprises. This
           sector accounts for almost one-third of India’s economy and plays a
@@ -176,10 +179,10 @@ const msmeloan = () => {
         </p>
       </div>
 
-      <div className="px-40">
-        <div className="flex gap-2">
+      <div className="py-4">
+        <div className="flex flex-col sm:flex-col md:flex-row ld:flex-row justif-center items-center gap-2">
           <div className="bg-black text-white p-10">
-            <h3 className="text-[18px] font-bold">Bill Discounting</h3>
+            <h3 className="text-[18px] font-bold">MSME Loan</h3>
             <h1 className="text-[33px] font-bold">Key Features</h1>
             <ul className="p-5 list-disc tracking-[0.7px]">
               <li>Avail short-term loan </li>
@@ -196,12 +199,12 @@ const msmeloan = () => {
 
       <OtherFinancialInstrument />
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
+      <div className="text-[#7a7a7a]">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Challenges Faced by MSMEs in India
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           Micro, Small, and Medium Enterprises (MSMEs) are the backbone of the
           Indian economy. They contribute to 45% of India’s total industrial
           employment and 50% of India’s total exports. MSME industries currently
@@ -218,12 +221,12 @@ const msmeloan = () => {
         </p>
       </div>
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
+      <div className="text-[#7a7a7a] ">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Machinery Loan Providers
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           MSMEs play a vital role in India’s growth but face funding challenges.
           That’s where our expertise in Machinery loans for businesses comes in.
           A machinery loan is a term loan that allows MSMEs to purchase
@@ -235,12 +238,12 @@ const msmeloan = () => {
         </p>
       </div>
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
+      <div className="text-[#7a7a7a] ">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Challenges Faced by MSMEs in India
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           Micro, Small, and Medium Enterprises (MSMEs) are the backbone of the
           Indian economy. They contribute to 45% of India’s total industrial
           employment and 50% of India’s total exports. MSME industries currently
@@ -256,12 +259,12 @@ const msmeloan = () => {
           CBFTE, PMS and others.
         </p>
       </div>
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
+      <div className="text-[#7a7a7a] ">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
         MSME loan eligibility
         </h1>
 
-        <div className="p-5 text-[17px] tracking-[0.7px]">
+        <div className="py-4 text-[17px] tracking-[0.7px]">
           <ul>
             <li>The business should be across the service or manufacturing sector in order to avail of the Loans for MSMEs in India.</li>
             <li>The investments in the service sector should not exceed Rs. 5 crores.</li>
@@ -272,15 +275,15 @@ const msmeloan = () => {
         </div>
       </div>
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
+      <div className="text-[#7a7a7a] ">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
         Govt schemes for MSMEs in Pharmaceutical Sector
         </h1>
 
-        <div className="p-5 text-[17px] tracking-[0.7px]">
+        <div className=" text-[17px] tracking-[0.7px]">
         The government of India launched 3 schemes to make the pharma industry Atma nirbhar, additional resilient and future-ready. Those are as below –
 
-        <ul className="list-disc">
+        <ul className="list-disc p-5">
             <li>PTUAS Scheme </li>
             <li>API-CF Scheme</li>
             <li>PMPDS Scheme</li>
@@ -288,24 +291,24 @@ const msmeloan = () => {
         </div>
       </div>
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
+      <div className="text-[#7a7a7a] ">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
         Business Loans for MSMEs at Terkar Capital
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
         Terkar Capital offers easy access to business loans for MSMEs in India, supporting this crucial sector that contributes significantly to the country’s economy. We offer MSME loans for new businesses, with a deep understanding of customers’ financial strengths and weaknesses, We provide personalized financial solutions, ensuring a smooth loan process.
         </p>
       </div>
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
+      <div className="text-[#7a7a7a] ">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
         Government Measures to Support MSMEs during the COVID-19 Pandemic
         </h1>
 
-        <div className="p-5 text-[17px] tracking-[0.7px]">
+        <div className="py-4 text-[17px] tracking-[0.7px]">
         On 13 May 2020, the government announced a COVID-19 relief package for the MSMEs. Here are some key highlights:
-        <ol className="list-decimal">
+        <ol className="list-disc p-5">
             <li>
                 <div>
                 Banks and NBFCs to provide Emergency Credit Line to MSMEs to up to 20% of entire outstanding credit as of 29.2.2020

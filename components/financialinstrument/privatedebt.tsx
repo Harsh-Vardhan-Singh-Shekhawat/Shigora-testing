@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react";
 import OtherFinancialInstrument from "@/components/financialinstrument/OtherFinancialInstrument";
 import { WhatSetApart } from "./WhatSetApart";
+import FinanceForm from "./FinanceForm";
 
 const privateDebtArray = [
   {
@@ -62,7 +63,7 @@ const privateDebtArray = [
 
 const privateDebt = () => {
   return (
-    <div className="px-2">
+    <div className="p-4 max-w-7xl m-auto">
       <div>
         <Marquee pauseOnHover>
           <p className="text-[#7a7a7a] text-[17px]">
@@ -73,8 +74,8 @@ const privateDebt = () => {
         </Marquee>
       </div>
 
-      <div className="flex items-center px-40">
-        <div className="p-5">
+      <div className="flex items-center flex-col sm:flex-col md:flex-row lg:flex-row">
+        <div className="py-4">
           <h1 className="text-[25px] font-bold py-4">
             Secure funding for your business through Private Debt Instrument
           </h1>
@@ -92,97 +93,29 @@ const privateDebt = () => {
           </button>
         </div>
 
-        <div className="shadow-lg w-1/2  p-4 m-4">
-          <div className="w-full  ">
-            <form className="  rounded px-4 mb-4">
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="name"
-                  type="text"
-                  placeholder="Full Name"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="email"
-                  type="email"
-                  placeholder="Email Address"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="mobile"
-                  type="text"
-                  placeholder="Cell Number"
-                />
-              </div>
-
-              <div className="flex">
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Business Location"
-                  />
-                </div>
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Company Vintage"
-                  />
-                </div>
-              </div>
-
-              <div className="flex ">
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Amount Looking FOr"
-                  />
-                </div>
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Company Turnover"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <textarea
-                  rows={5}
-                  placeholder="Soft Comment on Company & Director CIBIL"
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                ></textarea>
-              </div>
-
-              <div className="">
-                <button
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-5  focus:outline-none focus:shadow-outline"
-                  type="submit"
-                >
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
+        <FinanceForm />
       </div>
 
-      <div className="px-40">
-        <div className="flex gap-2">
+      <div className="text-[#7a7a7a] py-4">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
+        Private Debt Funds
+
+
+        </h1>
+
+        <p className="py-4 text-[17px] tracking-[0.7px]">
+          The banking system of any country is the major contributor to the Economy. Governments and Bankers always put the effort to carry out all the economic transactions through the banking system. The banking system works in a defined framework. And there are always some exceptions to the standard condition.
+        </p>
+        <p className="py-4 text-[17px] tracking-[0.7px]">
+        Private debt or Private Credit comes into the picture, where the business crosses certain operational limits and cannot fit with regular banking operations. Or there are certain scenarios of the business that bankers cannot fund. Private debt funding works in unconventional ways. Here are a few of the best conditions where and why alternative investments or Private Debt comes into the picture.
+
+        </p>
+      </div>
+
+      <div className="">
+        <div className="flex flex-col sm:flex-col md:flex-row ld:flex-row gap-2">
           <div className="bg-black text-white p-10">
-            <h3 className="text-[18px] font-bold">Bill Discounting</h3>
+            <h3 className="text-[18px] font-bold">Private Debt</h3>
             <h1 className="text-[33px] font-bold">Key Features</h1>
             <ul className="p-5 list-disc tracking-[0.7px]">
               <li>Avail short-term loan </li>
@@ -197,42 +130,42 @@ const privateDebt = () => {
         </div>
       </div>
 
-      <OtherFinancialInstrument />
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-2 text-black  font-bold">
+      <div className="text-[#7a7a7a]">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Features of Private Debt Funding:
         </h1>
 
         <ol className="list-number">
           {privateDebtArray.map((data) => (
             <li>
-              <h3 className="text-black font-bold text-[20px] p-2">
+              <h3 className="text-black font-bold text-[20px] p-3">
                 {data.title}
               </h3>
-              <p className="text-[#7a7a7a] tracking-[0.7px] p-2">{data.desc}</p>
+              <p className="text-[#7a7a7a] tracking-[0.7px] p-3">{data.desc}</p>
             </li>
           ))}
         </ol>
       </div>
 
-      <div className="text-[#7a7a7a] px-40">
-        <h1 className="text-[25px] p-4 text-black  font-bold">
-          Why Terkar Capital?
+      <div className="text-[#7a7a7a] ">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
+        Private Debt Funds at Terkar Capital
+
+
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
-          Terkar Capital is a private debt funding provider, that offers
-          flexible and unconventional financing solutions for businesses that
-          may not fit traditional banking operations. We provide fast execution
-          of funding proposals with high exposure amounts and no equity
-          dilution. However, our focus is on long-term associations with
-          clients, bringing industry expertise and a professional approach to
-          help businesses navigate challenges and fuel growth.
+        <p className="py-4 text-[17px] tracking-[0.7px]">
+        We at Terkar Capital facilitate private debt funds, that offer flexible and unconventional financing solutions for businesses that may not fit traditional banking operations. We provide fast execution of funding proposals with high exposure amounts and no equity dilution. However, our focus is on long-term associations with clients, bringing industry expertise and a professional approach to help businesses navigate challenges and fuel growth.
+
+
         </p>
       </div>
 
-      <div className="py-10 px-40">
+      <OtherFinancialInstrument />
+
+
+      <div className="py-10 ">
         <h1 className="text-[25px] p-4 text-black  font-bold">FAQs</h1>
 
         <div>
