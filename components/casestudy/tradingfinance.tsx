@@ -4,51 +4,44 @@ import {MdEmail} from 'react-icons/md'
 import {BsFillTelephoneFill} from 'react-icons/bs'
 const tradingfinance = () => {
   return (
-    <div className="px-40 py-10 text-[#7c7c7c]">
+    <div className="max-w-7xl m-auto p-4 py-10 text-[#7c7c7c]">
       <div className="">
-        <h1 className="text-[25px] text-black font-bold">
+        <h1 className="text-[25px] py-4 text-black font-bold">
         The Process of Trade Financing (Case Study)
         </h1>
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
         To understand the process of trade financing, we will consider John’s business situation.
         </p>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
         John owns a food products company named JK Foods Private Limited. His company is one of the leading companies in the food industry. He started the company in 2014 and the company has been growing rapidly. The turnover of his company is Rs. 50 crores now. John now wants to enter the international marketplace. He is aware of the demand for Indian food products internationally and wants to export his products across the globe. 
         </p>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
         But there are several challenges in the international market. The challenge of working capital, the challenge of the surety of the payment, the challenge of the credit period, and so on. Earlier, he had many times planned for the export, but every time he stopped because of these challenges. But this time he is very stubborn. And he was very much aware of the fact that businesses have to take risks.
         </p>
       </div>
 
-      <div className="px-28 grid grid-cols-2 gap-2 text-[17px] tracking-[0.7px]">
-        <div className="p-5  shadow-xl">
-          <p className="">
+      <div className="text-[17px] tracking-[0.7px]">
+        <div className="">
+          <p className="py-4">
           John decided to take a loan from a financial institution in order to help his company enter the international market. According to his analysis, he will require Rs. 5 crores to kick start his business internationally starting with the US. He approached some financial institutions but they refused to approve John’s loans. Unfortunately, he did not have any assets or property which he can keep as collateral with the financial institution. 
           </p>
-          <br />
-          <p>
+         
+          <p className="py-4">
           Here he was not very much clear on what kind of funding he should take to have an international jump. But he just needs the fund, maybe in a term loan or maybe in working capital Financing. The bottom line was very clear, he wanted to have funds for the business. So, here, we will learn how the Process of Trade Financing works in John’s case.
           </p>
         </div>
-        <div className="m-auto p-10 shadow-xl">
-          <Image
-            width={400}
-            height={400}
-            src="/Project-finance.png"
-            alt="img"
-          />
-        </div>
+        
       </div>
 
       <div className="">
-        <h1 className="text-[25px] text-black  font-bold">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Financial Snapshots
         </h1>
 
         <div className="w-full">
-          <table className="table-fixed text-center">
+          <table className="table-fixed text-center w-full m-auto">
             <tbody>
               <tr className="text-center gap-1">
                 <td className="bg-[#f9f9f9] p-4">Company Turnover</td>
@@ -76,11 +69,11 @@ const tradingfinance = () => {
       </div>
 
       <div>
-      <h1 className="text-[25px] text-black  font-bold">
+      <h1 className="text-[25px] text-black py-4 font-bold">
       The Initial Step
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
         While discussing this plan with one of his business colleagues, he recommended to approach Terkar Capital for financial advice and debt arrangements. After he got in touch with one of our experts. We set up a meeting with John to discuss his financial requirements. After he spoke with our executives, we analyzed his business situation and recommended that he take Trade funding.
         </p>
 
@@ -88,44 +81,44 @@ const tradingfinance = () => {
       </div>
 
       <div>
-      <h1 className="text-[25px] text-black  font-bold">
+      <h1 className="text-[25px] text-black py-4  font-bold">
       What is Trade Finance?
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
         Trade finance is the financing of international trade flows. It reduces the risks involved in international trade transactions. This financial instrument helps you to bridge the gap between you and your export business working capital. We at Terkar Capital understand the challenges that a businessman may face and thus we make sure that you get your funding even though you do not have collateral.
         </p>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
         Unlocking global opportunities with trade funding learn here.
         </p>
         
       </div>
 
       <div>
-      <h1 className="text-[25px] text-black  font-bold">
+      <h1 className="text-[25px] py-4 text-black  font-bold">
       How does the process of Trade Financing execute?
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
         We explained the entire procedure involved in Business Trade Finance to John. Once the picture was clear on both ends, we started the procedure. The process of trade financing started when we received the Purchase Order (PO). After the purchase order was received we completed all the required documentation in relation to the export. Once the goods were shipped, the amount was released to John by the financial institution.</p>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
         There is sometimes risk involved while dealing with international customers, especially if it’s the first time. When John shipped his goods he was paid almost 90% of the invoice amount. Then after the customer made the payment to the financial institution, John was paid the remaining balance.
         </p>
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
         John was also worried about the rate of interest that the financial institution would charge. Terkar Capital looked after that too! The interest was started after he received the amount until the customer made the payment. As soon as the financial institution received the payment from the client, the process of charging interest was stopped. He got a good amount of export finance as his first customers were in the US. Now because of exports, the turnover of the company is growing. Mr. John is absolutely happy with both decisions, the decision to start exporting and the Decision to Choose Terkar Capital for financial aid.
          </p>
         
       </div>
 
       <div className="">
-        <h1 className="text-[25px] text-black  font-bold">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Financial Analysis
         </h1>
 
         <div className="w-full">
-          <table className="table-fixed text-center">
+          <table className="table-fixed text-center w-full m-auto">
             <tbody>
               <tr className="text-center gap-1">
                 <td className="bg-[#f9f9f9] p-4">Business Commencement Year</td>
@@ -149,33 +142,33 @@ const tradingfinance = () => {
               </tr>
             </tbody>
           </table>
-          <p className="p-5 text-[17px] tracking-[0.7px]">
+          <p className="py-4 text-[17px] tracking-[0.7px]">
           Our executives met Robert and understood his requirements for the funding and his business. So, after a detailed discussion, we suggested that he should take Project Finance. This type of funding would be a perfect fit for him considering the viability of his project, payback period, and his personal experience and profile. 
          </p>
          
          
-         <p className="p-5 text-[17px] tracking-[0.7px]">
+         <p className="py-4 text-[17px] tracking-[0.7px]">
          The financial institution has to be shown that the project is viable in order to receive the loan. Therefore, we helped Robert prepare a report explaining his project and the financial position of the company. And that he is capable of paying off the loan from the revenue, that project generates. He also would not require any separate mortgage for the funding as the project itself will act as a mortgage for the loan. In the case of project funding, the funds can be generated as per the requirement, be it periodically or all at the same time. 
          </p>
-         <p className="p-5 text-[17px] tracking-[0.7px]">
+         <p className="py-4 text-[17px] tracking-[0.7px]">
          Robert got his project funding sanctioned in just 20 working days after approaching us. Robert’s new manufacturing plant has been doing very well now and he has almost repaid the entire loan amount. So, now, he is one of our loyal customers at Terkar Capital.
          </p>
         </div>
       </div>
 
       <div>
-      <h1 className="text-[25px] text-black  font-bold">
+      <h1 className="text-[25px] py-4 text-black  font-bold">
       Trade Financing Process at Terkar Capital
         </h1>
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
         Summarize the Trade Financing Process (case study).</p>
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
         John, the owner of JK Foods Private Limited, a successful food products company, is determined to expand internationally despite the challenges he faces. Recognizing the need for trade financing, he approached Terkar Capital for assistance. Understanding his situation and the risks involved, we recommended trade funding to bridge the gap in working capital for his export business. With no collateral available, Terkar Capital ensured John’s funding needs were met.</p>
       </div>
 
       <div className="p-10 bg-[#FAFBFD] ">
-      <div className=" flex">
-        <div className="w-1/2">
+      <div className=" flex flex-col sm:flex-col md:flex-row lg:flex-row">
+        <div className=" w-full md:w-1/2">
           <h1 className="p-2 text-[25px] text-black font-bold">REACH OUT FOR THE HASSLE FREE EXECUTION PROCESS</h1>
           <p className="text-[#7A7A71] py-5">
           Do reach out to us with any questions or doubts. To ensure that you get the best service, please contact us before visiting.
@@ -188,7 +181,7 @@ const tradingfinance = () => {
                 </span>
           </div>
         </div>
-        <div className="shadow-lg w-1/2 p-4 m-4">
+        <div className="shadow-lg w-full md:w-1/2 p-4 m-4">
           
           <div className="w-full  ">
             <form className="  rounded px-4 mb-4">

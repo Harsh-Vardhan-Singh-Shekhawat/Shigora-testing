@@ -46,7 +46,7 @@ const unsecureworkingcapital = () => {
         </Marquee>
       </div>
 
-      <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row justify-center items-center gap-2 ">
+      <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row justify-between items-center gap-2 ">
         <div className="p-5">
           <h1 className="text-[25px] font-bold py-4">
             Take your business to the next level with Unsecured Business Loans

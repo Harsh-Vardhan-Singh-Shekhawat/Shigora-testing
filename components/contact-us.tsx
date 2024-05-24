@@ -81,16 +81,8 @@ const officeArray = [
 const contactus = () => {
   return (
     <div>
-      <div className=" bg-[url('/careers-img.webp')] bg-no-repeat bg-left-top opacity-[85%]  ">
-        <div>
-          <Marquee pauseOnHover>
-            <p className="p-5 ">
-              We do not charge any upfront fees when applying for a job with us.
-              Be careful of fraudulent Calls / Emails claiming to be from Terkar
-              Capital.
-            </p>
-          </Marquee>
-        </div>
+      <div className=" m bg-[url('/careers-img.webp')] bg-cover bg-no-repeat bg-left-top opacity-[85%]  ">
+
 
         <div className=" p-40 flex justify-end ">
           <div className="w-[70%]">
@@ -98,7 +90,7 @@ const contactus = () => {
             <h1 className="text-[44px] pb-2 text-black font-bold">
               How can we Help?
             </h1>
-            <p className=" text-[17px] tracking-[0.7px] w-[80%]">
+            <p className="max-w-7xl text-[17px] tracking-[0.7px] w-[80%]">
               We at Terkar Capital are committed to serving the growing hunger
               for funding for corporate. We offer many conventional and
               non-conventional Financial Instruments, specially designed to keep
@@ -113,12 +105,13 @@ const contactus = () => {
         </div>
       </div>
 
-      <div className="text-center px-10 py-5">
-        <div>
-          <h1 className="text-[24px] font-bold">Our Presence</h1>
-          <p>Financial Services</p>
+    <div className="max-w-7xl m-auto">
+    <div className="text-center  p-4 ">
+        <div className="py-4">
+          <h1 className="text-[28px] font-bold">Our Presence</h1>
+          <p className="text-[18px]">Financial Services</p>
         </div>
-        <div className="flex gap-2 w-full justify-center">
+        <div className="flex flex-col md:flex-row gap-4 w-full justify-center">
           <div className="shadow-lg p-5 ">
             <h2 className="text-[24px] font-bold">Head Office</h2>
             <h5>Pune & Pimpri Chinchwad</h5>
@@ -146,11 +139,11 @@ const contactus = () => {
         </div>
       </div>
 
-      <div className="px-20 py-5 text-center">
+      <div className=" py-5 text-center p-4">
         <h1 className="text-[24px] font-bold p-4">
           Operational Presence across India
         </h1>
-        <div className="grid grid-cols-4 gap-2 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-4 lg:grid-cols-4 gap-2  ">
           {operationalArray.map((data) => (
             <div className="shadow-lg p-4 ">
               <h3 className="font-semibold text-[20px] p-4">{data.city}</h3>
@@ -167,11 +160,11 @@ const contactus = () => {
         </div>
       </div>
 
-      <div className="p-20 text-center">
+      <div className=" text-center p-4">
         <h1 className="text-[24px] font-bold p-4">
           Branch Offices
         </h1>
-        <div className="flex justify-center">
+        <div className="flex flex-col md:flex-row justify-center gap-3">
           {
             officeArray.map((data) => (
               <div className="shadow-lg p-4 ">
@@ -196,11 +189,11 @@ const contactus = () => {
         </div>
       </div>
 
-      <div className="text-center px-40 py-10">
+      <div className="text-center p-4 py-10">
         <h1 className="text-[28px] font-bold p-4">
           We are Located at
         </h1>
-        <div className="flex justify-center gap-1">
+        <div className="flex flex-col md:flex-row justify-center gap-1">
           <div className="shadow-lg text-left p-4">
             <h1 className="text-[20px] font-bold p-4">PAN India Locations</h1>
             <p className="text-[#7a7a7a] tracking-[0.7px] p-4">We are pleased to announce our presence in major cities in India. Head Office at Pune & Pimpri Chinchwad and a Corporate Office in Mumbai & Branch offices at Delhi, Bengaluru, Hyderabad, and Chennai.</p>
@@ -214,9 +207,9 @@ const contactus = () => {
 
 
           </p>
-          <div className="w-full  ">
+          <div className="w-full ">
             <form className="  rounded px-4 mb-4">
-              <div className="flex justify-between ">
+              <div className="flex justify-between gap-2">
               <div className="mb-4">
                 <input
                   className="bg-[#f5f5f5] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -234,7 +227,7 @@ const contactus = () => {
                 />
               </div>
               </div>
-              <div className="flex justify-between">
+              <div className="flex justify-between gap-2">
               <div className="mb-4">
                 <input
                   className="bg-[#f5f5f5] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -277,10 +270,13 @@ const contactus = () => {
               </div>
             </form>
           </div>
+
         </div>
           </div>
         </div>
       </div>
+    </div>
+      
     </div>
   );
 };

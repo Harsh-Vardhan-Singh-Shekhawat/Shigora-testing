@@ -4,18 +4,18 @@ import { MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 const tradingfinance = () => {
   return (
-    <div className="px-40 py-10 text-[#7c7c7c]">
+    <div className="max-w-7xl m-auto p-4 py-10 text-[#7c7c7c]">
       <div className="">
-        <h1 className="text-[25px] text-black  font-bold">
+        <h1 className="py-4 text-[25px] text-black  font-bold">
           How process of the bill discounting facility execute?
         </h1>
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           John is an automobile parts manufacturer. He has a manufacturing plant
           in Pune and offices in many cities in India. Starting in 2010, John’s
           business has grown exponentially. His turnover is now Rs. 7.5 crores.
         </p>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           John is starting to manufacture a new line of products in two months.
           While he is planning for the new manufacturing line, he realizes the
           issue of working capital which he may face. John will raise the
@@ -25,7 +25,7 @@ const tradingfinance = () => {
           will be blocked till he gets his payment.
         </p>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           But there are several challenges in the international market. The
           challenge of working capital, the challenge of the surety of the
           payment, the challenge of the credit period, and so on. Earlier, he
@@ -34,13 +34,13 @@ const tradingfinance = () => {
           was very much aware of the fact that businesses have to take risks.
         </p>
       </div>
-      <h1 className="text-[25px] p-4 text-black  font-bold">
+      <h1 className="text-[25px] py-4 text-black  font-bold">
       The Execution Process
         </h1>
-      <div className="px-28 grid grid-cols-2 gap-2 text-[17px] tracking-[0.7px]">
+      <div className=" text-[17px] tracking-[0.7px]">
         
-        <div className="p-5  shadow-xl">
-          <p className="">
+        <div className=" ">
+          <p className="py-4">
             This new manufacturing line is for a big company. Thus the working
             capital cycle is long and John’s cash flow doesn’t allow for the
             desired credit period. John is thinking about taking funding from a
@@ -49,31 +49,23 @@ const tradingfinance = () => {
             amount of the loan doesn’t seem convenient to him. Thus, he will be
             using the money until his customer repays him.{" "}
           </p>
-          <br />
-          <p>
+          
+          <p className="py-4">
             John is very worried. While searching for financial advisory firms
             online, he came across Terkar Capital. He approached Terkar Capital.
             They set up a meeting with him to explain the process of bill
             discounting for manufacturing.{" "}
           </p>
         </div>
-        <div className="m-auto p-10 shadow-xl">
-          <Image
-            width={400}
-            height={400}
-            src="/Project-finance.png"
-            alt="img"
-          />
-        </div>
       </div>
 
       <div className="">
-        <h1 className="text-[25px] text-black font-bold">
+        <h1 className="text-[25px] py-4 text-black font-bold">
           Financial Snapshots
         </h1>
 
-        <div className="w-full">
-          <table className="table-fixed text-center">
+        <div className="w-full ">
+          <table className="text-center w-full m-auto ">
             <tbody>
               <tr className="text-center gap-1">
                 <td className="bg-[#f9f9f9] p-4">Company Turnover</td>
@@ -99,11 +91,11 @@ const tradingfinance = () => {
       </div>
 
       <div>
-        <h1 className="text-[25px] text-black  font-bold">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Financial Analysis
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           We discussed his situation and his business requirements. After
           careful analysis of the same. We suggested to him, that we can arrange
           the debt instrument. So, that works well for working capital and
@@ -117,7 +109,7 @@ const tradingfinance = () => {
       <div>
         <h1 className="text-[25px] text-black  font-bold">Next Step</h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           We then approached a financial institution for a bill discounting
           facility. John had good creditworthiness and the financial institution
           was convinced of the legitimacy of the bill. The respective financial
@@ -127,7 +119,7 @@ const tradingfinance = () => {
           and when he raises an invoice to his customers.{" "}
         </p>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           By MSME bill discounting John only had to pay interest on the amount
           of money he discounted. It is until that time period, he used the
           money. As soon as the respective financial institutions received the
@@ -138,15 +130,15 @@ const tradingfinance = () => {
       </div>
 
       <div>
-        <h1 className="text-[25px] text-black  font-bold">
+        <h1 className="m-auto text-[25px] text-black py-4  font-bold">
           Execution Process of Bill Discounting at Terkar Capital
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
         Terkar Capital arrange the funding almost in CC format. Thus, the bill discounting limit was open for John. He could use the limit as and when an invoice was raised to the client. John could use the money immediately for working capital. Due to the bill discounting facility, he did not have to wait for 50 or 90 days until the customer paid him the invoice amount. The whole process of discounting bills of exchanges is carried out in 5 working days. Thus, Mr. John was super happy with our service and professional execution of the proposal.
         </p>
 
-        <table className="table-fixed text-center">
+        <table className="w-full table-fixed text-center m-auto py-4">
             <tbody>
               <tr className="text-center gap-1">
                 <td className="bg-[#f9f9f9] p-4">Business Commencement Year</td>
@@ -171,20 +163,20 @@ const tradingfinance = () => {
       </div>
 
       <div className="">
-        <h1 className="text-[25px] text-black  font-bold">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
         Bill Discounting Facility at Terkar Capital
         </h1>
 
         <div className="w-full">
           
-          <p className="p-5 text-[17px] tracking-[0.7px]">
+          <p className="py-4 text-[17px] tracking-[0.7px]">
           We at Terkar Capital understand the importance of working capital for businesses. Our trained executives study each and every client’s situation. Thus, Understand their requirements. We then suggest the best financial instrument for them.
           </p>
 
-          <p className="p-5 text-[17px] tracking-[0.7px]">
+          <p className="py-4 text-[17px] tracking-[0.7px]">
           Terkar Capital arranges a hassle-free bill discounting facility without a mortgage!! We explain the entire process involved in taking the funding to the client, types of bill discounting, and so on so that the picture is clear at both ends. Terkar Capital has connections with many lending parties in the market. We are a highly reputed financial consulting and advisory firm. If you are looking for financial assistance? We are here!!
           </p>
-          <p className="p-5 text-[17px] tracking-[0.7px]">
+          <p className="py-4 text-[17px] tracking-[0.7px]">
             Robert got his project funding sanctioned in just 20 working days
             after approaching us. Robert’s new manufacturing plant has been
             doing very well now and he has almost repaid the entire loan amount.
@@ -197,10 +189,10 @@ const tradingfinance = () => {
         <h1 className="text-[25px] text-black  font-bold">
           Trade Financing Process at Terkar Capital
         </h1>
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           Summarize the Trade Financing Process (case study).
         </p>
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           John, the owner of JK Foods Private Limited, a successful food
           products company, is determined to expand internationally despite the
           challenges he faces. Recognizing the need for trade financing, he
@@ -211,8 +203,8 @@ const tradingfinance = () => {
         </p>
       </div>
 
-      <div className="p-10 bg-[#FAFBFD] ">
-        <div className=" flex">
+      <div className="p-10 bg-[#FAFBFD] m-4">
+        <div className=" flex fex-col sm:flex-col md:flex-row lg:flex-row">
           <div className="w-1/2">
             <h1 className="p-2 text-[25px] text-black font-bold">
               REACH OUT FOR THE HASSLE FREE EXECUTION PROCESS
@@ -233,7 +225,7 @@ const tradingfinance = () => {
               </span>
             </div>
           </div>
-          <div className="shadow-lg w-1/2 p-4 m-4">
+          <div className="shadow-lg w-full md:w-1/2 p-4 m-4">
             <div className="w-full  ">
               <form className="  rounded px-4 mb-4">
                 <div className="flex gap-4 justify-between ">

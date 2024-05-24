@@ -4,12 +4,12 @@ import { MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 const tradingfinance = () => {
   return (
-    <div className="px-40 py-10 text-[#7c7c7c]">
+    <div className="max-w-7xl m-auto p-4 py-10 text-[#7c7c7c]">
       <div className="">
-        <h1 className="text-[25px] text-black  font-bold">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Loan against Property Process
         </h1>
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           Rajeev has a steel manufacturing business named ‘Rajeev Steels Private
           Limited situated in Pune. His Turnover for the last financial year is
           30 Cr. He is in this business since 2012. His business is growing
@@ -22,12 +22,12 @@ const tradingfinance = () => {
       </div>
 
       <div className="">
-        <h1 className="text-[25px] text-black  font-bold">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Financial Snapshots
         </h1>
 
         <div className="w-full">
-          <table className="table-fixed text-center">
+          <table className="table-fixed text-center m-auto w-full">
             <tbody>
               <tr className="text-center gap-1">
                 <td className="bg-[#f9f9f9] p-4"> Turnover of company </td>
@@ -51,12 +51,12 @@ const tradingfinance = () => {
           </table>
         </div>
       </div>
-      <h1 className="text-[25px] p-4 text-black  font-bold">
+      <h1 className="text-[25px] py-4 text-black  font-bold">
         The Execution Process
       </h1>
-      <div className="px-28 grid grid-cols-2 gap-2 text-[17px] tracking-[0.7px]">
-        <div className="p-5  shadow-xl">
-          <p className="">
+      <div className=" text-[17px] tracking-[0.7px]">
+        <div className="">
+          <p className="py-4">
             Since the order is huge and he is in lacks funds, he is thinking
             about what can be done for borrowing finance. The deal is going to
             make his company shine but the amount required for manufacturing is
@@ -68,17 +68,10 @@ const tradingfinance = () => {
             of availing a loan against property.
           </p>
         </div>
-        <div className="m-auto p-10 shadow-xl">
-          <Image
-            width={400}
-            height={400}
-            src="/Project-finance.png"
-            alt="img"
-          />
-        </div>
+        
       </div>
 
-      <p className="p-5 text-[17px] tracking-[0.7px]">
+      <p className="py-4 text-[17px] tracking-[0.7px]">
         Our executives understood the case and started working on it. After a
         proper survey, they suggested he take a Loan against Property rather
         than unsecured funding.
@@ -90,7 +83,7 @@ const tradingfinance = () => {
         </h1>
 
         <div className="w-full">
-          <table className="table-fixed text-center">
+          <table className="table-fixed text-center w-full m-auto">
             <tbody>
               <tr className="text-center gap-1">
                 <td className="bg-[#f9f9f9] p-4">
@@ -115,7 +108,7 @@ const tradingfinance = () => {
             </tbody>
           </table>
         </div>
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           We discussed with his principal banker and communicated that Rajan can
           use the Cash Credit facility as per his drawing power which was
           exposed to Rs. 15 Cr. Rajan then withdrew the desired amount. He used
@@ -125,17 +118,17 @@ const tradingfinance = () => {
           company’s finances.
         </p>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           Read Working Capital Financing & its Benefits here.
         </p>
       </div>
 
       <div>
-        <h1 className="text-[25px] text-black  font-bold">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Loan Against Property process at Terkar Capital
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           Rajeev, the owner of ‘Rajeev Steels Private Limited’ in Pune, faced a
           financial challenge when he received a lucrative order but lacked the
           necessary funds for manufacturing. With a creditworthy CIBIL rating,
@@ -149,8 +142,8 @@ const tradingfinance = () => {
       </div>
 
       <div className="p-10 bg-[#FAFBFD] ">
-        <div className=" flex">
-          <div className="w-1/2">
+        <div className=" flex flex-col sm:flex-col md:flex-row lg:flex-row">
+          <div className=" w-full md:w-1/2">
             <h1 className="p-2 text-[25px] text-black font-bold">
               REACH OUT FOR THE HASSLE FREE EXECUTION PROCESS
             </h1>
@@ -170,7 +163,7 @@ const tradingfinance = () => {
               </span>
             </div>
           </div>
-          <div className="shadow-lg w-1/2 p-4 m-4">
+          <div className="shadow-lg w-full md:w-1/2 p-4 m-4">
             <div className="w-full  ">
               <form className="  rounded px-4 mb-4">
                 <div className="flex gap-4 justify-between ">

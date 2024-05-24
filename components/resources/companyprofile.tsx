@@ -2,9 +2,9 @@ import React from "react";
 
 const companyprofile = () => {
   return (
-    <div className="px-40 py-10">
-      <div className="flex gap-2">
-        <div className="w-1/2 bg-gray-200 p-10 text-[#7a7a7a] text-[17px] tracking-[0.7px] shadow-lg">
+    <div className="max-w-7xl m-auto p-10">
+      <div className="flex flex-col md:flex-row  gap-2">
+        <div className="w-full md:w-1/2 bg-gray-200 p-10 text-[#7a7a7a] text-[17px] tracking-[0.7px] shadow-lg">
           <p className="p-2">
             We are an investment banking firm with national footprints,
             specializing in assisting professionals and businesses of all sizes
@@ -19,7 +19,7 @@ const companyprofile = () => {
             business objectives faster.
           </p>
         </div>
-        <div className="w-1/2  shadow-lg">
+        <div className=" w-full md:w-1/2  shadow-lg">
             <form className="p-10">
                 <h1 className="font-bold text-[28px] py-4">
                 Terkar Capital Company Profile

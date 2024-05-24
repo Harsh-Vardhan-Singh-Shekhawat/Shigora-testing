@@ -5,17 +5,9 @@ const careers = () => {
   return (
     <div className="text-[#7a7a7a]">
       <div className=" bg-[url('/careers-img.webp')] bg-no-repeat bg-right-top bg-opacity-75  ">
-        <div>
-          <Marquee pauseOnHover>
-            <p className="p-5 ">
-              We do not charge any upfront fees when applying for a job with us.
-              Be careful of fraudulent Calls / Emails claiming to be from Terkar
-              Capital.
-            </p>
-          </Marquee>
-        </div>
+        
 
-        <div className="w-[70%] p-40  ">
+        <div className="w-[70%] px-10 py-40 max-w-7xl m-auto ">
           <h1 className="text-[44px] py-2 text-black font-bold">
             Become a part of Terkar Capital
           </h1>
@@ -34,8 +26,8 @@ const careers = () => {
         </div>
       </div>
 
-      <div className="flex justify-evenly px-40 py-10">
-        <div className="p-5 w-1/2">
+      <div className="flex flex-col md:flex-row justify-evenly  py-10 max-w-7xl m-auto p-4">
+        <div className="p-5 ">
           <h1 className="text-[28px] text-black font-bold py-4">
           Finance / Investment Banking JOBS
 
@@ -52,9 +44,9 @@ const careers = () => {
           
         </div>
 
-        <div className="shadow-lg w-1/2 ">
+        <div className="shadow-lg  ">
           <div className="w-full">
-            <h1 className="text-[25px] text-black font-bold py-4">Submit the form below</h1>
+            <h1 className="text-[25px] text-black font-bold p-2">Submit the form below</h1>
             <form className="  rounded px-4 mb-4">
               <div className="mb-4">
                 <input

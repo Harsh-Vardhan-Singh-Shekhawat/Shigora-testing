@@ -5,16 +5,16 @@ import { MdEmail } from "react-icons/md";
 
 const debtsync = () => {
   return (
-    <div className="px-40 py-10 text-[#7c7c7c]">
+    <div className="max-w-7xl m-auto p-4 py-10 text-[#7c7c7c]">
       <div className="">
         <h1 className="text-[25px] text-black  font-bold">
           Debt Syndication Process (Case study)
         </h1>
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           Let’s Understand the Debt Syndication process from John’s case study.
         </p>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           John is an entrepreneur. He owns a manufacturing company called ‘JB
           Private Limited’. He has been in business for 10 years now. The
           turnover of his company is Rs. 550 crores. John has one plant and an
@@ -26,30 +26,23 @@ const debtsync = () => {
         </p>
       </div>
 
-      <div className="px-28 grid grid-cols-2 gap-2 text-[17px] tracking-[0.7px]">
-        <div className="p-5  shadow-xl">
-          <p className="">
+      <div className="  text-[17px] tracking-[0.7px]">
+        <div className=" ">
+          <p className="py-4">
             While he is calculating and analyzing the amount of funding required
             for the business expansion he realizes that he needs funding of Rs.
             100 crores. One financial institution cannot lend such a huge amount
             of loan. He goes to different banks in order to get loans from each
             one. Soon he realizes this process is complicated.
           </p>
-          <br />
-          <p>
+         
+          <p className="py-4">
             One of his business colleagues recommends he approach Terkar Capital
             for debt syndication services. John approaches one of us and we set
             up a meeting with him to discuss his requirements.
           </p>
         </div>
-        <div className="m-auto p-10 shadow-xl">
-          <Image
-            width={400}
-            height={400}
-            src="/Project-finance.png"
-            alt="img"
-          />
-        </div>
+       
       </div>
 
       <div className="">
@@ -57,8 +50,8 @@ const debtsync = () => {
           Financial Snapshots
         </h1>
 
-        <div className="w-full">
-          <table className="table-fixed text-center">
+        <div className="w-full py-4">
+          <table className="table-fixed text-center m-auto w-full">
             <tbody>
               <tr className="text-center gap-1">
                 <td className="bg-[#f9f9f9] p-4">Company Turnover</td>
@@ -90,7 +83,7 @@ const debtsync = () => {
           Debt Syndication in Business Financing
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           During the meeting with Mr. John, our team understood the requirement
           of the amount, mortgage available, expansion plan, and expected rate
           of interest. After we understood his business situation and
@@ -101,7 +94,7 @@ const debtsync = () => {
           the debt Syndication facility.
         </p>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           Debt Syndication meaning is that it takes place when a loan asked by a
           business or corporate is too large for one financial institution to
           lend. So, it is basically outside the scope of the lender’s
@@ -112,13 +105,13 @@ const debtsync = () => {
         </p>
       </div>
 
-      <div className="">
-        <h1 className="text-[25px] text-black  font-bold">
+      <div className=" ">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Financial Analysis
         </h1>
 
-        <div className="w-full">
-          <table className="table-fixed text-center">
+        <div className="w-full py-4 ">
+          <table className="table-fixed text-center w-full m-auto">
             <tbody>
               <tr className="text-center gap-1">
                 <td className="bg-[#f9f9f9] p-4">Business Commencement Year</td>
@@ -144,7 +137,7 @@ const debtsync = () => {
               </tr>
             </tbody>
           </table>
-          <p className="p-5 text-[17px] tracking-[0.7px]">
+          <p className="py-4 text-[17px] tracking-[0.7px]">
             We prepared a proposal for John’s loan and reached out to various
             lenders regarding the debt syndication process. After a week we had
             all the lending financial institutions, the documentation, and the
@@ -154,7 +147,7 @@ const debtsync = () => {
             process.
           </p>
 
-          <p className="p-5 text-[17px] tracking-[0.7px]">
+          <p className="py-4 text-[17px] tracking-[0.7px]">
             Understand the Myths about Debt Funding.
           </p>
         </div>
@@ -164,7 +157,7 @@ const debtsync = () => {
         <h1 className="text-[25px] text-black  font-bold">
           Debt Syndication process at Terkar Capital
         </h1>
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           Terkar Capital is a debt syndication company. Our credibility in the
           market has helped us to cultivate many valuable connections with
           various lending parties. So, therefore we provide the best debt
@@ -174,7 +167,7 @@ const debtsync = () => {
           It is for these loans and needs to arrange many permutations and
           combinations.
         </p>
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           But, no worries now!! Our highly trained executives at Terkar Capital
           are here to assist you at every step of the debt syndication process.
           Thus, being one of the best debt syndication firms, we coordinate the
@@ -183,8 +176,8 @@ const debtsync = () => {
       </div>
 
       <div className="p-10 bg-[#FAFBFD] ">
-        <div className=" flex">
-          <div className="w-1/2">
+        <div className=" flex flex-col sm:flex-col md:flex-row lg:flex-row">
+          <div className="w-full md:w-1/2">
             <h1 className="p-2 text-[25px] text-black font-bold">
               REACH OUT FOR THE HASSLE FREE EXECUTION PROCESS
             </h1>
@@ -204,7 +197,7 @@ const debtsync = () => {
               </span>
             </div>
           </div>
-          <div className="shadow-lg w-1/2 p-4 m-4">
+          <div className="shadow-lg w-full md:w-1/2 p-4 m-4">
             <div className="w-full  ">
               <form className="  rounded px-4 mb-4">
                 <div className="flex gap-4 justify-between ">

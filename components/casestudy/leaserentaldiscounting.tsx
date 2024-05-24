@@ -4,12 +4,12 @@ import { MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 const tradingfinance = () => {
   return (
-    <div className="px-40 py-10 text-[#7c7c7c]">
+    <div className="max-w-7xl m-auto p-4 py-10 text-[#7c7c7c]">
       <div className="">
-        <h1 className="text-[25px] text-black  font-bold">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           LRD Funding Process
         </h1>
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           Mr Jacod has been a proprietary firm for the last 20 years. Jacob
           recently gave his premises on lease for 5 years to the vast and
           renowned cotton clothing brand. His turnover for the previous year is
@@ -22,9 +22,9 @@ const tradingfinance = () => {
         </p>
       </div>
 
-      <div className="px-28 grid grid-cols-2 gap-2 text-[17px] tracking-[0.7px]">
-        <div className="p-5  shadow-xl">
-          <p className="">
+      <div className=" text-[17px] tracking-[0.7px]">
+        
+          <p className=" py-4">
             Jacob had all the ideas ready for expanding the business but what
             hampered him was his issue with funds. He consulted many people and
             the financial institution, but to no avail! Everyone was asking for
@@ -32,18 +32,11 @@ const tradingfinance = () => {
             across Terkar Capital. And visited our website. He soon contacted
             our team and the meeting was immediately fixed.
           </p>
-        </div>
-        <div className="m-auto p-10 shadow-xl">
-          <Image
-            width={400}
-            height={400}
-            src="/Project-finance.png"
-            alt="img"
-          />
-        </div>
+   
+       
       </div>
 
-      <p className="p-5 text-[17px] tracking-[0.7px]">
+      <p className="py-4 text-[17px] tracking-[0.7px]">
         Jacob was worried about his problems with funds and started telling us
         his requirements. Our team understood his needs, and we asked him about
         the financials. After analyzing all the documents and areas of his
@@ -55,11 +48,11 @@ const tradingfinance = () => {
         renowned brand in clothing.
       </p>
 
-      <h1 className="text-[25px] p-4 text-black  font-bold">
+      <h1 className="text-[25px] py-4 text-black  font-bold">
         What is LRD Funding?
       </h1>
 
-      <p className="p-5 text-[17px] tracking-[0.7px]">
+      <p className="py-4 text-[17px] tracking-[0.7px]">
         LRD is a term loan that is provided to the borrower based on their
         income from the rented property. A major aspect that affects the LRD
         Funding process is the availability of rent receipts from the tenants.
@@ -67,10 +60,10 @@ const tradingfinance = () => {
         etc.
       </p>
 
-      <p className="p-5 text-[17px] tracking-[0.7px]">
+      <p className="py-4 text-[17px] tracking-[0.7px]">
         Learn in detail about what is LRD Loan.
       </p>
-      <p className="p-5 text-[17px] tracking-[0.7px]">
+      <p className="py-4 text-[17px] tracking-[0.7px]">
         Furthermore, we undertook the valuation of the property and rental
         receipts and came to the conclusion that Lease Rental Discounting would
         best suit the client according to his financials. The funding went to
@@ -82,11 +75,11 @@ const tradingfinance = () => {
       </p>
 
       <div className="">
-        <h1 className="text-[25px] text-black  font-bold">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           Financial Snapshots
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           We discussed with his principal banker and communicated that Rajan can
           use the Cash Credit facility as per his drawing power which was
           exposed to Rs. 15 Cr. Rajan then withdrew the desired amount. He used
@@ -98,10 +91,10 @@ const tradingfinance = () => {
       </div>
 
       <div className="">
-        <h1 className="text-[25px] text-black  font-bold">Business Input</h1>
+        <h1 className="text-[25px] py-4 text-black  font-bold">Business Input</h1>
 
         <div className="w-full">
-          <table className="table-fixed text-center">
+          <table className="table-fixed text-center m-auto w-full">
             <tbody>
               <tr className="text-center gap-1">
                 <td className="bg-[#f9f9f9] p-4">Nature of Business </td>
@@ -137,11 +130,11 @@ const tradingfinance = () => {
       </div>
 
       <div>
-        <h1 className="text-[25px] text-black  font-bold">
+        <h1 className="text-[25px] py-4 text-black  font-bold">
           LRD Funding Process at Terkar Capital
         </h1>
 
-        <p className="p-5 text-[17px] tracking-[0.7px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
           Terkar Capital, a trusted financial institution, offers loans to MSMEs
           like Mr Jacob, who faced challenges in securing funds for business
           expansion. Despite his lack of collateral, Jacob approached us and
@@ -155,9 +148,9 @@ const tradingfinance = () => {
         </p>
       </div>
 
-      <div className="p-10 bg-[#FAFBFD] ">
-        <div className=" flex">
-          <div className="w-1/2">
+      <div className="p-10 bg-[#FAFBFD] m-4 ">
+        <div className=" flex flex-col sm:flex-col md:flex-row lg:flex-row">
+          <div className=" w-full md:w-1/2">
             <h1 className="p-2 text-[25px] text-black font-bold">
               REACH OUT FOR THE HASSLE FREE EXECUTION PROCESS
             </h1>
@@ -177,7 +170,7 @@ const tradingfinance = () => {
               </span>
             </div>
           </div>
-          <div className="shadow-lg w-1/2 p-4 m-4">
+          <div className="shadow-lg w-full md:w-1/2 p-4 m-4">
             <div className="w-full  ">
               <form className="  rounded px-4 mb-4">
                 <div className="flex gap-4 justify-between ">
