@@ -84,7 +84,7 @@ const contactus = () => {
       <div className=" m bg-[url('/careers-img.webp')] bg-cover bg-no-repeat bg-left-top opacity-[85%]  ">
 
 
-        <div className=" p-40 flex justify-end ">
+        <div className=" p-4 md:p-40 flex justify-end ">
           <div className="w-[70%]">
             <h3 className="text-[24px] text-black font-bold">Contact Us</h3>
             <h1 className="text-[44px] pb-2 text-black font-bold">
@@ -111,7 +111,7 @@ const contactus = () => {
           <h1 className="text-[28px] font-bold">Our Presence</h1>
           <p className="text-[18px]">Financial Services</p>
         </div>
-        <div className="flex flex-col md:flex-row gap-4 w-full justify-center">
+        <div className="flex flex-col sm:flex-col  md:flex-row  lg:flex-row gap-4 w-full justify-center">
           <div className="shadow-lg p-5 ">
             <h2 className="text-[24px] font-bold">Head Office</h2>
             <h5>Pune & Pimpri Chinchwad</h5>

@@ -3,6 +3,7 @@ import Marquee from "react-fast-marquee";
 import { Tabs, Tab, TabPanels, TabPanel, TabList } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
+import FinanceForm from "@/components/financialinstrument/FinanceForm";
 
 const financeArray = [
   {
@@ -171,21 +172,13 @@ const financeArray = [
 
 const index = () => {
   return (
-    <div className="text-center">
-      <div>
-        <Marquee pauseOnHover>
-          <p className="text-[#7a7a7a] text-[17px]">
-            Harness the power of Financial Instruments & Transform your business
-            landscape!!
-            <b className="text-black tracking-[0.7px]">Book a call</b> with us!!
-          </p>
-        </Marquee>
-      </div>
+    <div className="text-center max-w-7xl m-auto p-4">
+     
 
-      <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row justify-center gap-2">
-        <div className="p-5 w-1/2 text-left">
+      <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row justify-between items-center gap-2">
+        <div className="p-5 w-full md:w-1/2 text-left">
           <h1 className="text-[25px] font-bold py-4">
-            Secure funding for your business through Private Debt Instrument
+            Financial Instruments Services
           </h1>
           <p className="text-[#7a7a7a] text-[17px] py-2 ">
             We specialize in arranging financial instruments tailored to your
@@ -202,103 +195,19 @@ const index = () => {
           </button>
         </div>
 
-        <div className="shadow-lg w-1/2  p-4 m-4">
-          <div className="w-full  ">
-            <form className="  rounded px-4 mb-4">
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="name"
-                  type="text"
-                  placeholder="Full Name"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="email"
-                  type="email"
-                  placeholder="Email Address"
-                />
-              </div>
-              <div className="mb-4">
-                <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                  id="mobile"
-                  type="text"
-                  placeholder="Cell Number"
-                />
-              </div>
-
-              <div className="flex">
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Business Location"
-                  />
-                </div>
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Company Vintage"
-                  />
-                </div>
-              </div>
-
-              <div className="flex ">
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Amount Looking FOr"
-                  />
-                </div>
-                <div className="mb-4 w-1/2">
-                  <input
-                    className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                    id="location"
-                    type="text"
-                    placeholder="Company Turnover"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <textarea
-                  rows={5}
-                  placeholder="Soft Comment on Company & Director CIBIL"
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
-                ></textarea>
-              </div>
-
-              <div className="">
-                <button
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-5  focus:outline-none focus:shadow-outline"
-                  type="submit"
-                >
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
+        <FinanceForm />
       </div>
 
-      <div className="px-40">
+      <div className="">
         <div className="py-10">
           <h1 className="text-[25px] font-bold ">Financial Instruments</h1>
           <p className="uppercase font-semibold text-[15px] text-[#7a7a7a]">
             We covered in these areas
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {financeArray.map((data) => (
-            <div key={data.title} className="shadow-md p-3">
+            <div key={data.title} className="shadow-md p-3 text-center">
               <Image
                 width={350}
                 height={350}
@@ -316,7 +225,7 @@ const index = () => {
               <div>
                 <Link
                   href={data.link}
-                  className="text-lg font-semibold tracking-wide uppercase bg-black hover:bg-white hover:text-black border-2 border-black duration rounded-full text-white py-2 px-4"
+                  className="text-lg font-semibold tracking-wide uppercase bg-black hover:bg-white hover:text-black border-2 border-black duration-300 rounded-full text-white py-2 px-4"
                 >
                   Read More
                 </Link>

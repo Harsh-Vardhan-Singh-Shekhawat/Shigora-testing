@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const TerkarCapital = () => {
   return (
-    <div className=' py-20 '>
-      <div className='flex justify-between flex-col md:flex-row items-center gap-2 m-auto'>
+    <div className=' py-20 m-auto '>
+      <div className='flex justify-center flex-col sm:flex-col lg:flex-row md:flex-row items-center gap-2 m-auto'>
         <div className='bg-zinc-900 text-white w-full md:w-1/2'>
         <h1 className="p-4 text-[30px]">
             Why Terkar Capital?

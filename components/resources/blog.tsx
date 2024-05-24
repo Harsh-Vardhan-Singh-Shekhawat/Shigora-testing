@@ -69,12 +69,12 @@ const blogArray = [
 ]
 
   return (
-    <div className='px-40 '>
+    <div className='max-w-7xl m-auto '>
       <div>
         <p className="p-5 text-[17px] tracking-[0.7px] text-[#7a7a7a]">Welcome to Terkar Capital’s blog, your go-to resource for valuable insights and strategies on raising funds and designing debt instruments that align with your financial objectives. Our mission is to assist businesses in achieving their financial goals by offering comprehensive guidance and innovative solutions. Let’s explore.
         </p>
       </div>
-      <div className='grid grid-cols-3 gap-5 p-5'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-5 p-5'>
         {blogArray.map((data) => (
             <div className='border-[1px] border-black tracking-[0.7px] text-[#7a7a7a]'>
                 <Image width={400} height={300} src={data.img} objectFit='' alt='blog-img' /> {/*fill:true*/}
@@ -84,7 +84,7 @@ const blogArray = [
                     {data.title}
                     </Link></h3>
                     <p>{data.desc}</p>
-                    <button className='bg-black uppercase text-white p-3'>Learn More</button>
+                    <button className='bg-black uppercase text-white p-3 border-black border-2 hover:bg-white hover:text-black duration-300'>Learn More</button>
                 </div>
             </div>
         ))}

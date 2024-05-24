@@ -67,22 +67,14 @@ const financeArray = [
 const unsecureddebtproduct = () => {
   return (
     <div className="max-w-7xl m-auto p-4">
-      <div>
-        <Marquee pauseOnHover>
-          <p className="text-[#7a7a7a] text-[17px]">
-            Harness the power of Financial Instruments & Transform your business
-            landscape!!
-            <b className="text-black tracking-[0.7px]">Book a call</b> with us!!
-          </p>
-        </Marquee>
-      </div>
+      
 
       <div>
         <h1 className="text-[30px] font-bold py-4  ">
             Unsecured Debt Products
         </h1>
 
-        <div className=" py-4 ">
+        <div className="">
         <p className="text-[#7a7a7a] tracking-[0.7px]  py-4">
         Unsecured business loans are a popular choice for businesses in India. It addresses short-term financial needs as they advance. However, Lack of machinery, worker payments, pending bills, and buying new stock are just some of the short-term hassles that occur. So, to address these hassles, Terkar Capital facilitates unsecured debt funding products.
         </p>

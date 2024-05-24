@@ -44,15 +44,6 @@ const corporateArray = [
 const corporatefinance = () => {
   return (
     <div className="p-2 max-w-7xl m-auto">
-      <div>
-        <Marquee pauseOnHover>
-          <p className="text-[#7a7a7a] text-[17px]">
-            Due to heavy web traffic, if you find the inquiry form is not
-            functional, feel free to{" "}
-            <b className="text-black tracking-[0.7px]">Book a call</b> with us!!
-          </p>
-        </Marquee>
-      </div>
 
       <div className="flex justify-between items-center flex-col sm:flex-col md:flex-row lg:flex-row">
         <div className="py-4 ">

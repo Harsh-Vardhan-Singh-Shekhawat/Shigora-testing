@@ -10,6 +10,7 @@ import {
   SquaresPlusIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
+import Marquee from "react-fast-marquee";
 import {
   ChevronDownIcon,
   PhoneIcon,
@@ -83,7 +84,7 @@ const finance = [
 
 const casestudies = [
   {
-    name: "Project Finance Case Studies",
+    name: "Project Finance ",
     description: "Get a better understanding of your traffic",
     href: "/case-studies/project-finance-case-study",
   },
@@ -93,67 +94,67 @@ const casestudies = [
     href: "/case-studies/debt-syndication-process",
   },
   {
-    name: "The Process of Trade Financing",
+    name: " Process of Trade Financing",
     description: "Your customers’ data will be safe and secure",
     href: "/case-studies/process-of-trading-finance",
   },
   {
-    name: "Process of Bill Discounting Facility",
+    name: "Bill Discounting Facility",
     description: "Connect with third-party tools",
     href: "/case-studies/process-of-bill-discounting",
   },
   {
-    name: "Foreign Currency Funding Process",
+    name: "Foreign Currency ",
     description: "Get a better understanding of your traffic",
     href: "/case-studies/foreign-currency-funding-process",
   },
   {
-    name: "Factoring Fund Execution Process",
+    name: "Factoring Fund Execution",
     description: "Speak directly to your customers",
     href: "/case-studies/factoring-funding-solution",
   },
   {
-    name: "Sugar Pledge Loan Case Study",
+    name: "Sugar Pledge Loan ",
     description: "Your customers’ data will be safe and secure",
     href: "/case-studies/process-of-sugar-pledge-loan",
   },
   {
-    name: "LC Discounting Case Study",
+    name: "LC Discounting",
     description: "Connect with third-party tools",
     href: "/case-studies/letter-of-credit-discounting-process",
   },
   {
-    name: "Bank Guarantee Process ",
+    name: "Bank Guarantee  ",
     description: "Build strategic funnels that will convert",
     href: "/case-studies/bank-guarantee-process",
   },
   {
-    name: "Unsecure Funding Process",
+    name: "Unsecured Funding ",
     description: "Build strategic funnels that will convert",
     href: "/case-studies/unsecured-funding-process",
   },
   {
-    name: "The Process to avail of a Machinery Loan",
+    name: "Machinery Loan",
     description: "Connect with third-party tools",
     href: "/case-studies/execution-process-to-get-a-machinery-loan",
   },
   {
-    name: "CGTMSE Loan Process",
+    name: "CGTMSE Loan ",
     description: "Build strategic funnels that will convert",
     href: "/case-studies/cgtmse-loan-process",
   },
   {
-    name: "Working Capital Finance Solution",
+    name: "Working Capital Loan",
     description: "Build strategic funnels that will convert",
     href: "/case-studies/working-capital-financing-solution",
   },
   {
-    name: "Lease Rental Discounting Funding Process",
+    name: "LRD Loan Process",
     description: "Build strategic funnels that will convert",
     href: "/case-studies/lrd-funding-process",
   },
   {
-    name: "Loan Against Property Process",
+    name: "Loan Against Property ",
     description: "Build strategic funnels that will convert",
     href: "/case-studies/loan-against-property-process",
   },
@@ -301,7 +302,7 @@ export default function Navbar() {
             >
               <Popover.Panel className="absolute bg-gray-50  w-[250px] font-semibold text-[#7c7c7c] z-10">
                 
-                <div className="  ">
+                <div className="">
                   {finance.map((item) => (
                     <div
                       key={item.name}
@@ -344,13 +345,13 @@ export default function Navbar() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute bg-gray-50 font-semibold w-[250px] text-[#7c7c7c] z-10">
+              <Popover.Panel className="absolute bg-gray-50 font-semibold w-[220px] text-[#7c7c7c] z-10">
                 
                 <div className="">
                   {casestudies.map((item) => (
                     <div
                       key={item.name}
-                      className="group relative flex items-center gap-x-6 rounded-sm border-y-[1px] text-sm  hover:bg-gray-300"
+                      className="group  relative flex items-center gap-x-6 rounded-sm border-y-[1px] text-sm  hover:bg-gray-300"
                     >
                       <div className="flex-auto px-2">
                         <Link
@@ -418,6 +419,13 @@ export default function Navbar() {
           </Popover>
         </Popover.Group>
       </nav>
+      <div>
+        <Marquee pauseOnHover>
+          <p className='text-[#5E5E5E] text-[17px] '>
+              Terkar Capital is a Registered Brand of <b>Terkar Global Financial Development Private Limited.</b>
+          </p>
+        </Marquee>
+      </div>
       <Dialog
         as="div"
         className="lg:hidden bg-[#09160E]"

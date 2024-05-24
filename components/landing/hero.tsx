@@ -13,11 +13,7 @@ import "@coreui/coreui/dist/css/coreui.min.css";
 const hero = () => {
   return (
     <div className="">
-      <Marquee pauseOnHover>
-          <p className='text-[#5E5E5E] text-[17px] '>
-              Terkar Capital is a Registered Brand of <b>Terkar Global Financial Development Private Limited.</b>
-          </p>
-        </Marquee>
+      
       <CCarousel controls transition="crossfade">
         <CCarouselItem>
           <CImage

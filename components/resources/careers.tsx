@@ -26,8 +26,8 @@ const careers = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-evenly  py-10 max-w-7xl m-auto p-4">
-        <div className="p-5 ">
+      <div className="flex flex-col sm:flex-col md:flex-row justify-between  py-10 max-w-7xl m-auto p-4">
+        <div className="p-5 md:w-1/2 w-full">
           <h1 className="text-[28px] text-black font-bold py-4">
           Finance / Investment Banking JOBS
 
@@ -45,7 +45,7 @@ const careers = () => {
         </div>
 
         <div className="shadow-lg  ">
-          <div className="w-full">
+          <div className="w-full ">
             <h1 className="text-[25px] text-black font-bold p-2">Submit the form below</h1>
             <form className="  rounded px-4 mb-4">
               <div className="mb-4">

@@ -43,15 +43,7 @@ const UBLarray = [
 const medicalequipment = () => {
   return (
     <div className="px-2 max-w-7xl m-auto">
-      <div>
-        <Marquee pauseOnHover>
-          <p className="text-[#7a7a7a] text-[17px]">
-            Due to heavy web traffic, if you find the inquiry form is not
-            functional, feel free to{" "}
-            <b className="text-black tracking-[0.7px]">Book a call</b> with us!!
-          </p>
-        </Marquee>
-      </div>
+      
 
       <div className="text-[#7a7a7a]">
         <h1 className="text-[25px] py-4 text-black  font-bold">

@@ -38,15 +38,7 @@ const financeArray = [
 const securefundingfunds = () => {
   return (
     <div className="max-w-7xl m-auto">
-      <div>
-        <Marquee pauseOnHover>
-          <p className="text-[#7a7a7a] text-[17px]">
-            Harness the power of Financial Instruments & Transform your business
-            landscape!!
-            <b className="text-black tracking-[0.7px]">Book a call</b> with us!!
-          </p>
-        </Marquee>
-      </div>
+      
 
       <div>
         <h1 className="text-[30px] font-bold pt-4 px-2 ">

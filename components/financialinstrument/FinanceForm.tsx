@@ -7,7 +7,7 @@ import React from 'react'
             <form className="  rounded px-4 mb-4">
               <div className="mb-4">
                 <input
-                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight shadow focus:outline-none focus:shadow-outline"
+                  className="border-[#d7d7d7] border-[1px] text-[#4e4e4e] appearance-none  w-full py-4 px-4 text-gray-700 leading-tight sha focus:outline-none focus:shadow-outline"
                   id="name"
                   type="text"
                   placeholder="Full Name"
