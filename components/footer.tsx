@@ -4,7 +4,7 @@ import { BsLinkedin, BsInstagram,BsPinterest,BsFacebook, BsTwitter } from "react
 const footer = () => {
   return (
     <>
-    <div className="  bg-[#303030] text-[#c1c1c1]">
+    <div className="  bg-[#303030] text-[#c1c1c1] p-4">
       <div className="max-w-7xl m-auto">
 
       
@@ -133,7 +133,7 @@ const footer = () => {
       </div>
     </div>
     <div className="bg-[#1c1c1c] ">
-      <footer className="text-[#c1c1c1] py-3 flex items-center gap-2 max-w-7xl m-auto">
+      <footer className="text-[#c1c1c1] py-3 flex flex-col sm:flex-row md:flex-row lg:flex-row items-center gap-2 max-w-7xl m-auto">
       <div>
       Copyright © <span className="text-white">Terkar Capital</span> 2024 |
       </div>
