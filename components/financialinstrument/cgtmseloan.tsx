@@ -93,7 +93,7 @@ const cgtmseloan = () => {
       <div className="py-4">
         <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row gap-2">
           <div className="bg-black text-white p-10">
-            <h3 className="text-[18px] font-bold">Bill Discounting</h3>
+            <h3 className="text-[18px] font-bold">CGTMSE Loan</h3>
             <h1 className="text-[33px] font-bold">Key Features</h1>
             <ul className="p-5 list-disc tracking-[0.7px]">
               <li>Government-backed loan</li>

@@ -98,20 +98,27 @@ const financeArray  = [
 const financialinstruments = () => {
   return (
     <div className='text-center  '>
-      <h1 className='text-[30px] font-bold'>Top Financial Instruments We Arrange</h1>
+      <h1 className='text-[30px] py-4 font-bold'>Top Financial Instruments We Arrange</h1>
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2'>
             {financeArray.map((data) => (
                 <div className=''>
                 {
                     data.id < 12 ? (
                         <div className='shadow-xl p-[10px]'>
-                    <Image src={data.img} alt='img' />
-                    <h1 className='text-[18px] p-1 font-semibold'>{data.title}</h1>
-                    <Link href={data.link} className='uppercase bg-black text-white border-2 border-black px-3 py-2 rounded-full hover:bg-white hover:text-black duration-300'>Let's Explore</Link>
+                    <Image className=' hover:scale-105 duration-300' src={data.img} alt='img' />
+                    <h1 className='text-[20px] p-2 font-semibold'>{data.title}</h1>
+                    <div>
+                <Link
+                  href="/financial-intruments/unsecured-debt-products"
+                  className="text-md font-semibold tracking-wide uppercase bg-black hover:bg-white hover:text-black border-2 border-black duration-300 rounded-full text-white py-2 px-4"
+                >
+                  Let's Explore
+                </Link>
+                </div>
                 </div>
                     ) : (
                         <div className='flex justify-center items-center relative w-full h-[350px] mt-3 bg-white shadow-xl'>
-                            <Link href="/financial-instruments" className='absolute flex justify-center items-center font-semibold   '>View All</Link>
+                            <Link href="/financial-instruments" className='absolute flex justify-center items-center font-semibold  hover:scale-105 duration-300 '>View All</Link>
                         </div>
                     )
                 }

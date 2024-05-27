@@ -16,7 +16,7 @@ const financeArray = [
     img: "/Unsecured-business-loans-1.webp",
     title: "Unsecured Working Capital",
     desc: "As a business decision-maker, you understand that working capital is crucial for sustained growth and meeting market demand. Whether you’re in manufacturing, services, or trading, having sufficient working capital is essential to thriving in today’s competitive landscape",
-    link: "financial-instruments/project-report-for-funding",
+    link: "financial-instruments/working-capital-finance",
   },
   {
     img: "/Medical-Equipment-Finance.webp",

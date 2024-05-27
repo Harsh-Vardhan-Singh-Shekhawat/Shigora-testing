@@ -3,6 +3,7 @@ import Marquee from "react-fast-marquee";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 import FinanceForm from "./FinanceForm";
 import { WhatSetApart } from "./WhatSetApart";
+import OtherFinancialInstrument from "./OtherFinancialInstrument";
 
 const UBLarray = [
   {
@@ -35,8 +36,6 @@ const UBLarray = [
 const businessguarantee = () => {
   return (
     <div className="p-4 max-w-7xl m-auto">
-     
-
       <div className="flex items-center flex-col sm:flex-col md:flex-row lg:flex-row">
         <div className="py-4">
           <h1 className="text-[25px] font-bold py-4">
@@ -61,18 +60,25 @@ const businessguarantee = () => {
 
       <div className="text-[#7a7a7a] py-4">
         <h1 className="text-[25px] text-black  font-bold">
-        Unsecured Working Capital Loan
-
+          Bank Guarantee Facility
         </h1>
 
         <p className="py-4 text-[17px] tracking-[0.7px]">
-        Finance can be appealing for companies in need of working capital, but at times securing a loan is no easy feat. For a business to get a loan, they usually need to pledge some kind of collateral or asset. So, unsecured working capital becomes a very powerful instrument. It is perhaps the most convenient type of loan to apply for, requiring minimal or no upfront money, and eliminating the necessity to pledge any collateral.
-
+          In the Indian traditional working capital format, Cash Credit (CC) and
+          Overdraft ( OD) are the most famous and commonly known working capital
+          facilities. However, over the period, the banking industry has
+          developed many products. They have designed considering the
+          characteristics of the nature of the businesses. Few of them are
+          developed to build trust between buyer and seller. So, among the
+          financial instruments, a bank guarantee facility has gained
+          prominence.
         </p>
         <p className="py-4 text-[17px] tracking-[0.7px]">
-        Cash is considered the blood for business health. The better it circulates, the healthier the condition remains. However, the cash is in working capital format. It is one of the prime requirements of every business. The reason is very simple – to justify the growing demand in the market. Be it any industry – manufacturing, service, or trading, all industries require working capital. The working capital facility is given by the bankers, which major includes – OD Facility, Dropline OD, Cash Credit, BG facility, etc.
-
-
+          Generally, working capital facilities can bifurcate into two segments.
+          One is fund-based and the other is non-fund-based. However, a Bank
+          Guarantee is a non-fund-based credit facility. It is an unsecured debt
+          funding instrument. Terkar Capital arranges loans against the bank
+          guarantee.
         </p>
       </div>
 
@@ -96,86 +102,108 @@ const businessguarantee = () => {
 
       <div className="text-[#7a7a7a] ">
         <h1 className="text-[25px] py-4 text-black  font-bold">
-          Unsecured Business Loans Eligibility
+          Advantages to Apply for a Bank Guarantee Facility
         </h1>
-
-        <p className="py-4 text-[17px] tracking-[0.7px]">
-          The eligibility depends on the lending firms or their usual way of
-          conduct. So, most of the time, the eligibility criteria for obtaining
-          unsecured funding are kept similar by the financial lending
-          institutions, As –
-        </p>
-        <ul className="p-5 list-disc">
-          <li>A CIBIL score of over 750 is required in most cases. </li>
+        <ul className="py-4 px-5  list-disc">
+          <li>Builds the confidence of performance in the transaction.</li>
+          <li>The issuing bank takes the assurance of the payment.</li>
           <li>
-            The ages of the applicants must be between 25–55. Again, this is not
-            applicable to all financial institutions.{" "}
+            Safeguards the interest of both issuing and receiving parties.
           </li>
+          <li>Ease of doing the large value transaction.</li>
           <li>
-            The minimum turnover must be 40 lac INR or 50 lac INR depending on
-            the lending institution.
+            Supports the oral commitment and integrity of the issuing party.
           </li>
         </ul>
       </div>
 
       <div className="text-[#7a7a7a]">
         <h1 className="text-[25px] py-4 text-black  font-bold">
-          Interest rate Benefits:
+          Documents Required for Bank Guarantee Facility
         </h1>
 
         <p className="py-4 text-[17px] tracking-[0.7px]">
-          There are generally two types of interest structures. They are fixed
-          interest rates and floating interest rates. In a fixed interest rate
-          structure, the amount of EMI remains constantly the same. On a
-          floating interest rate structure, the interest is calculated on the
-          balance amount.
+          To obtain a bank guarantee in India, applicants typically need to
+          submit a duly filled application form along with KYC documents,
+          business registration papers, and a board resolution for corporate
+          entities. Financial statements, collateral documents (if applicable),
+          and details of the transaction are also crucial. Legal opinions may be
+          sought, and an application fee is usually charged by the issuing bank.
+          Applicants should check with the specific bank for any additional
+          requirements and follow their guidelines for a smooth application
+          process.
         </p>
       </div>
 
       <div className="text-[#7a7a7a] ">
         <h1 className="text-[25px]  text-black  font-bold">
-          Why choose an Unsecured Business Loans?
+          Process of BG Backed Transactions
         </h1>
 
-        <ul className="list-disc p-6 trackin-[0.7px] text-[17px]">
+        <p className="py-4 text-[17px] tracking-[0.7px]">
+          Whenever the buyer and seller need assurance on the payment and
+          delivery of the product or service bank guarantees come into the
+          picture. Below is the standard process followed for the BG-backed
+          transaction.
+        </p>
+
+        <ul className=" py-6 trackin-[0.7px] text-[17px]">
+          <h3 className="text-black text-[20px] font-semibold py-4">Step 1</h3>
           <li>
-            Unsecured Funding helps with day-to-day operational financial needs,
-            such as asset renovation and vendor payments.
+            The buyer/applicant approaches the bank to issue the bank guarantee
+            to the seller. The applicant provides all the necessary inputs which
+            include, the amount, date, validity period, the purpose of the
+            issuance, etc.
           </li>
+          <h3 className="text-black text-[20px] font-semibold py-4">Step 2</h3>
           <li>
-            Businesses can use collateral-free loans to address unexpected
-            financial circumstances, such as economic downturns or new taxation
-            systems.
+            Once the bank receives the required documents, it issues the bank
+            guarantee to the seller. The bank may charge fees to the
+            buyer/applicant. The bank will consider its mortgage/collateral
+            before issuing the BG. If the requested amount is more than the
+            bank’s comfort, the buyer/applicant may need to arrange for more
+            security deposit. circumstances, such as economic downturns or new
+            taxation systems.
           </li>
+          <h3 className="text-black text-[20px] font-semibold py-4">Step 3</h3>
+
           <li>
-            Unsecured funding can be obtained without the need for collateral
-            and can be used to address short-term discrepancies in order to
-            achieve long-term goals.
+            Once the seller receives the BG from the Buyer, it confirms to the
+            seller his assured payment. So the seller can start the execution of
+            the order and delivery of the goods and services.
           </li>
+          <h3 className="text-black text-[20px] font-semibold py-4">Step 4</h3>
+
           <li>
-            It is a business-friendly option that can help companies avoid debt
-            and repay loans smoothly.
+            When the seller has performed all the terms and conditions of the
+            payments, the buyer has to make the payment to the seller. In any
+            case, if the buyer refrains from making the payment or delays the
+            payment, then the BG issuing bank is liable to make the payment
+            without question to the seller. And if the buyer makes the committed
+            payment, then the bank guarantee stands void.
           </li>
-          <li>Unsecured funding helps businesses grow and pay off loans.</li>
         </ul>
       </div>
 
       <div className="">
         <h1 className="text-[25px]  text-black  font-bold">
-          Why Terkar Capital?
+          Bank Guarantee Facility at Terkar Capital
         </h1>
 
-        <p className="py-4 text-[17px] tracking-[0.7px]">
-          Terkar Capital is a financial development firm that provides business
-          loans without collateral. We are one of the most modern and
-          specialized unsecured business loan facilitators in India. Our
-          executives are trained to expedite the process and assist with
-          documentation. Thus, the borrower will be fully informed about the
-          loan procedure, including the repayment plan. The unsecured funding
-          process only begins once both parties have a clear understanding of
-          the situation.
+        <p className="py-4 text-[17px] text-[#7a7a7a] tracking-[0.7px]">
+          Regarding the bank guarantee, multiple banks provide BG issuance and
+          discounting facilities. The buyer or seller may be confused about
+          which one to opt for. Terkar Capital provides loans against bank
+          guarantee. We understand the role of the bank guarantee in India from
+          both sides, from the buyer side and the seller side. It is not only
+          limited to the issuance of the bank guarantee but also to the
+          discounting of the guarantee. We make sure that our professional
+          execution helps all the parties (Bank, buyer, and seller) to complete
+          the transaction without any hassle.
         </p>
       </div>
+
+      <OtherFinancialInstrument />
     </div>
   );
 };

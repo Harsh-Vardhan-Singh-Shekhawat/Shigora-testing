@@ -419,7 +419,7 @@ export default function Navbar() {
           </Popover>
         </Popover.Group>
       </nav>
-      <div>
+      <div className="px-2">
         <Marquee pauseOnHover>
           <p className='text-[#5E5E5E] text-[17px] '>
               Terkar Capital is a Registered Brand of <b>Terkar Global Financial Development Private Limited.</b>
@@ -536,13 +536,13 @@ export default function Navbar() {
                   )}
                 </Disclosure>
                 <Link
-                  href="#"
+                  href="/company-profile-download"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base  leading-7  hover:bg-gray-200"
                 >
                   Company
                 </Link>
                 <Link
-                  href="#"
+                  href="/contact-us"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7  hover:bg-gray-200"
                 >
                   Contact
